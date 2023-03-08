@@ -16,11 +16,13 @@
     <div class="splide__track">
       <ul class="splide__list">
 
-        {% for block in section.blocks %}
+      
+
+       {% for item in section.blocks %}
          
         {% case block.type %}
             {% when 'collection' %}
-                {% for product in collections[block.settings.collection].products %}
+                {% for product in collections[item.settings.collection].products %}
                     <li class="splide__slide"> 
                       {{product.title}}
                     </li>
@@ -123,6 +125,59 @@
     }
     ],
     "blocks": [
+         {
+        "type": "manually",
+        "name": "manually",
+        "settings": [
+
+        {
+            "type": "url",
+            "id": "url",
+            "label": "Select your Url"
+        },
+        {
+            "type": "image_picker",
+            "id": "img",
+            "label": "Select your first image"
+        },
+        {
+            "type": "image_picker",
+            "id": "img2",
+            "label": "Select your hover image"
+        },
+        {
+            "type": "text",
+            "id": "h6",
+            "label": "Proudct title",
+            "default": "LIVI"
+        },
+        {
+            "type": "text",
+            "id": "p",
+            "label": "Proudct description",
+            "default": "Modern Glass Wall Lamp"
+        },
+        {
+            "type": "text",
+            "id": "price",
+            "label": "Proudct price",
+            "default": "88"
+        },
+        {
+            "type": "text",
+            "id": "btn",
+            "label": "Shop now button title",
+            "default": "Buy Now -"
+        },
+        {
+            "type": "text",
+            "id": "com",
+            "label": "compare price",
+            "default": "99"
+        }
+        
+        ]
+      },
       {
         "type": "collection",
         "name": "Collection",
