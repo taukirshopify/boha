@@ -1,7 +1,7 @@
 
 
 
-  <div>
+  <div class="singel-accordian">
     <button class="accordion">{{ section.settings.title }}</button>
     {% for item in section.blocks %}
         <div class="panel">
@@ -17,6 +17,9 @@
 
 
     <style>
+      .singel-accordian {
+        max-width: 360px;
+    }
       .accordion {
         background-color: #eee;
         color: #444;
