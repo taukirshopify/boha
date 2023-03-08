@@ -87,11 +87,25 @@
             "btn": "Buy Now -",
             "com": "99"
           }
+        },
+        "ca7d21ff-38bc-48a1-af28-87ed45ce6ba5": {
+          "type": "manually",
+          "settings": {
+            "url": "",
+            "img": "shopify:\/\/shop_images\/Blassbody_gold-black-vintage-industrial-wall-sconc_variants-1_3_9144be9a-d58b-4f9b-9e30-2d0ad78a7e85.jpg",
+            "img2": "shopify:\/\/shop_images\/ABlack_nordic-personality-creative-living-room_variants-1_1_2_f35561dd-edb6-416c-a8ed-525ae89e86a7.jpg",
+            "h6": "LIVI",
+            "p": "Modern Glass Wall Lamp",
+            "price": "88",
+            "btn": "Buy Now -",
+            "com": "99"
+          }
         }
       },
       "block_order": [
         "e9238a9a-046c-41f2-9c02-4493d9f985c7",
-        "c4860764-7468-4c0c-9be9-14408b4ca331"
+        "c4860764-7468-4c0c-9be9-14408b4ca331",
+        "ca7d21ff-38bc-48a1-af28-87ed45ce6ba5"
       ],
       "settings": {
         "title": "Wall Sconces",
