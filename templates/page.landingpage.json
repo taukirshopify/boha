@@ -1,11 +1,6 @@
 {
   "sections": {
     "main": {
-      "type": "page",
-      "settings": {
-      }
-    },
-    "9717ee05-4462-4eb6-8c04-0215fb5a7b56": {
       "type": "landing-page-accordian",
       "settings": {
         "title": "OUR COLLECTIONS"
@@ -74,7 +69,6 @@
   },
   "order": [
     "main",
-    "9717ee05-4462-4eb6-8c04-0215fb5a7b56",
     "b62918e8-417f-4637-8cd8-e75a06a1a5ad",
     "1e6303b9-461f-4ac8-bb37-c7e7dc76a00d"
   ]
