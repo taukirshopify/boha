@@ -18,9 +18,21 @@
 
         <li class="splide__slide"> 
 
-    
        {% for item in section.blocks %}
-          {{item.title}}
+         
+        {% case block.type %}
+            {% when 'collection' %}
+                {%- assign collection = collections[block.settings.collection] -%}
+                {% for product in collection %}
+                   {{product.title}}
+                {% endfor %}
+            
+            {% when 'product' %}
+
+
+            
+        {% endcase %}
+
 
        {% endfor %}
     
