@@ -16,13 +16,11 @@
     <div class="splide__track">
       <ul class="splide__list">
 
-      
-
-       {% for item in section.blocks %}
+        {% for block in section.blocks %}
          
         {% case block.type %}
             {% when 'collection' %}
-                {% for product in collections[item.settings.collection].products %}
+                {% for product in collections[block.settings.collection].products %}
                     <li class="splide__slide"> 
                       {{product.title}}
                     </li>
