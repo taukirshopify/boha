@@ -22,8 +22,7 @@
          
         {% case block.type %}
             {% when 'collection' %}
-                {%- assign collection = collections[block.settings.collection] -%}
-                {% for product in collection %}
+                {% for product in collections[item.settings.collection].products %}
                     <li class="splide__slide"> 
                       {{product.title}}
                     </li>
