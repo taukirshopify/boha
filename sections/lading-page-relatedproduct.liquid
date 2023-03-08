@@ -1,5 +1,7 @@
 
-
+<div class="shop-all-wrapper">
+   <a href="{{  section.settings.shopurl }}" class="btn-round"> {{  section.settings.shopall }} </a>
+</div>
 <section class="collection-list__container ">
     <div class="slider-header">
      <p>{{ section.settings.title }}</p>
@@ -234,6 +236,17 @@
       "name": "Loading  Related product",
       "class": "lading-page-product",
       "settings": [
+        {
+          "type": "url",
+          "id": "shopurl",
+          "label": "Shop All Link"
+        },
+        {
+          "type": "text",
+          "id": "shopall",
+          "label": "shop All button Title",
+          "placeholder": "Shop All"
+        },
       {
         "type": "text",
         "id": "title",
