@@ -13,6 +13,26 @@
     },
     "b62918e8-417f-4637-8cd8-e75a06a1a5ad": {
       "type": "accordain-tabs",
+      "blocks": {
+        "121b0ae8-5765-461d-b4bb-5711e1f89bc8": {
+          "type": "button",
+          "settings": {
+            "btn": "Sconces",
+            "link": ""
+          }
+        },
+        "0b3a501c-e7da-46c7-9bbe-1519357c46d1": {
+          "type": "button",
+          "settings": {
+            "btn": "Sconces",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "121b0ae8-5765-461d-b4bb-5711e1f89bc8",
+        "0b3a501c-e7da-46c7-9bbe-1519357c46d1"
+      ],
       "settings": {
         "title": "Wall Sconces"
       }
