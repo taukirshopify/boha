@@ -12,7 +12,9 @@
 
 
 <script>
-var acc = document.getElementsByClassName("accordion");
+
+document.addEventListener("DOMContentLoaded", () => {
+  var acc = document.getElementsByClassName("accordion");
 var i;
 
 for (i = 0; i < acc.length; i++) {
@@ -26,6 +28,8 @@ for (i = 0; i < acc.length; i++) {
     }
   });
 }
+
+});
 </script>
 
 
