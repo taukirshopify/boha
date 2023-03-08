@@ -22,11 +22,19 @@
             "btn": "Sconces",
             "link": ""
           }
+        },
+        "cfbef4a8-b282-4359-81ac-ed97d29c4d4e": {
+          "type": "button",
+          "settings": {
+            "btn": "Modern Wall Sconces",
+            "link": "shopify:\/\/collections\/modern-wall-sconces-1"
+          }
         }
       },
       "block_order": [
         "121b0ae8-5765-461d-b4bb-5711e1f89bc8",
-        "0b3a501c-e7da-46c7-9bbe-1519357c46d1"
+        "0b3a501c-e7da-46c7-9bbe-1519357c46d1",
+        "cfbef4a8-b282-4359-81ac-ed97d29c4d4e"
       ],
       "settings": {
         "title": "Wall Sconces"
