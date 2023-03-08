@@ -44,7 +44,28 @@
 
 <script>
     document.addEventListener("DOMContentLoaded", () => {
-        new Splide("#first-slider").mount();
+        let splide = new Splide( '#first-slider', {
+            pagination :    true ,
+                      paginationKeyboard: true,
+                        type   : 'loop',
+                        drag   : 'free',
+                        perPage: 4,
+                        perMove: 3,
+                        rewindSpeed: 100,
+                        rewindByDrag:true,
+                        breakpoints: {
+                            1020: {
+                                perPage: 3,
+                                perMove: 2,
+                            },
+                            640: {
+                                perPage: 2,
+                                perMove: 1,
+                            }
+                          }
+                      } );
+                      
+                      splide.mount(); 
     });
 
 </script>
