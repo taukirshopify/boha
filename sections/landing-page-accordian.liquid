@@ -1,0 +1,54 @@
+<article class="site-page" data-template-page>
+  <header class="page-masthead">
+    <h1 class="page-title">
+      {{ section.settings.title }}
+    </h1>
+
+
+  </header>
+
+</article>
+
+
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+
+
+
+
+{% schema %}
+  {
+    "name": "landing page Header",
+    "class": "lading-page",
+    "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Page title",
+      "default": "OUR COLLECTIONS",
+ 
+      "placeholder": "OUR COLLECTIONS"
+    }
+    ],
+    "presets": [
+      {
+        "name": "landing page header"
+      }
+    ]
+  }
+{% endschema %}

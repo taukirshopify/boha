@@ -1,0 +1,59 @@
+
+
+
+  <div>
+    <button class="accordion">{{ section.settings.title }}</button>
+    {% for item in section.blocks %}
+        <div class="panel">
+         <a href="{{ item.settings.link }}" class="panel-with-btn">{{ item.settings.btn }}</a>
+        </div>
+      {% endfor %}
+
+    </div>
+    
+
+
+
+
+
+
+{% schema %}
+  {
+    "name": "Loading page Header",
+    "class": "lading-page",
+    "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title Name",
+      "default": "Wall Sconces",
+      "placeholder": "Wall Sconces"
+    }
+    ],
+    "blocks": [
+      {
+        "type": "button",
+        "name": "Hyperlink",
+        "settings": [
+          {
+            "type": "text",
+            "id": "btn",
+            "label": "Select your btn title",
+            "default": "Sconces",
+            "placeholder": "Sconces"
+          },
+          {
+            "type": "url",
+            "id": "link",
+            "label": "Select your Link"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "landing page button"
+      }
+    ]
+  }
+{% endschema %}
