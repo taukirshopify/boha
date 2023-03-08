@@ -16,13 +16,11 @@
     <div class="splide__track">
       <ul class="splide__list">
 
-      
-
-       {% for item in section.blocks %}
+        {% for block in section.blocks %}
          
         {% case block.type %}
             {% when 'collection' %}
-                {% for product in collections[item.settings.collection].products %}
+                {% for product in collections[block.settings.collection].products %}
                     <li class="splide__slide"> 
                       {{product.title}}
                     </li>
@@ -32,6 +30,19 @@
                 <li class="splide__slide"> 
                   {{product.title}}
                   {{ product.price }}
+               </li>
+               {% when 'manually' %}
+                <li class="splide__slide "> 
+                   <div class="singel-proudct-wrapper">
+                     <div class="image-wrapper">
+                      <img src="{{ block.settings.img | img_url:'' }}" alt="">
+                      <img src="{{ block.settings.img2 | img_url:'' }}" class="hover-image" alt="">
+                     </div>
+                   <a href="{{ block.settings.url }}">   <h6>{{ block.settings.h6 }}</h6>
+                   <p>{{ block.settings.p }}</p>
+                   <a href="{{ block.settings.url }}" class="btn shopnow"> {{ block.settings.btn }}   <div class="prices"> <span> $ {{ block.settings.price }}</span> <del> $ {{block.settings.com }}</del> </div> </a>
+                </a>
+                    </div>
                </li>
             
         {% endcase %}
@@ -125,7 +136,7 @@
     }
     ],
     "blocks": [
-         {
+      {
         "type": "manually",
         "name": "manually",
         "settings": [
