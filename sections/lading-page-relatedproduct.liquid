@@ -15,31 +15,9 @@
 <section class="splide" id="first-slider" aria-label="Splide Basic HTML Example">
     <div class="splide__track">
       <ul class="splide__list">
-
-        <li class="splide__slide"> 
-
-       {% for item in section.blocks %}
-         
-        {% case block.type %}
-            {% when 'collection' %}
-                {%- assign collection = collections[block.settings.collection] -%}
-                {% for product in collection %}
-                   {{product.title}}
-                {% endfor %}
-            
-            {% when 'product' %}
-
-
-            
-        {% endcase %}
-
-
-       {% endfor %}
-    
-        </li>
-
-
-
+        <li class="splide__slide">Slide 01</li>
+        <li class="splide__slide">Slide 02</li>
+        <li class="splide__slide">Slide 03</li>
       </ul>
     </div>
   </section>
@@ -68,7 +46,7 @@
     document.addEventListener("DOMContentLoaded", () => {
 
 
-
+        
         let splide = new Splide( '#first-slider', {
             pagination :    true ,
                       paginationKeyboard: true,
@@ -107,42 +85,25 @@
       "label": "Title Name",
       "default": "Wall Sconces",
       "placeholder": "Wall Sconces"
-    },
-    {
-        "type": "text",
-        "id": "btn-text",
-        "label": "Button title",
-        "default": "Shop All Products",
-        "placeholder": "Shop All Products"
-    },
-    {
-        "type": "url",
-        "id": "url",
-        "label": "Select your link"
     }
     ],
     "blocks": [
       {
-        "type": "collection",
-        "name": "Collection",
+        "type": "button",
+        "name": "Hyperlink",
         "settings": [
-        {
-            "type": "collection",
-            "id": "collection",
-            "label": "Select your Collection"
-        }
-        ]
-      },
-      {
-        "type": "Singel Product ",
-        "name": "Product",
-        "settings": [
-      
-       {
-        "type": "product",
-        "id": "product",
-        "label": "Select your Product"
-       }
+          {
+            "type": "text",
+            "id": "btn",
+            "label": "Select your btn title",
+            "default": "Sconces",
+            "placeholder": "Sconces"
+          },
+          {
+            "type": "url",
+            "id": "link",
+            "label": "Select your Link"
+          }
         ]
       }
     ],
