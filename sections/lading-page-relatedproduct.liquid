@@ -16,7 +16,7 @@
     <div class="splide__track">
       <ul class="splide__list">
 
-        <li class="splide__slide"> 
+      
 
        {% for item in section.blocks %}
          
@@ -24,20 +24,23 @@
             {% when 'collection' %}
                 {%- assign collection = collections[block.settings.collection] -%}
                 {% for product in collection %}
-                   {{product.title}}
+                    <li class="splide__slide"> 
+                      {{product.title}}
+                    </li>
                 {% endfor %}
             
             {% when 'product' %}
-        {{product.title}}
-        {{ product.price }}
-
+                <li class="splide__slide"> 
+                  {{product.title}}
+                  {{ product.price }}
+               </li>
             
         {% endcase %}
 
 
        {% endfor %}
     
-        </li>
+       
 
 
 
