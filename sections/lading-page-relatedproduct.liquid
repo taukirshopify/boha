@@ -1,0 +1,93 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/splidejs/4.1.4/js/splide.min.js"></script>
+<link href="  https://cdnjs.cloudflare.com/ajax/libs/splidejs/4.1.4/css/splide.min.css" >
+
+<section class="collection-list__container ">
+  <div class="slider-header">
+   <p>{{ section.settings.title }}</p>
+   <a href="{{section.settings.url}}" class="btn">{{ section.settings.btn-text}}</a>
+  </div>
+    <div class="slider-proudct">
+    <!-- First slider codes -->
+<section class="splide" id="first-slider" aria-label="Splide Basic HTML Example">
+    <div class="splide__track">
+      <ul class="splide__list">
+        <li class="splide__slide">Slide 01</li>
+        <li class="splide__slide">Slide 02</li>
+        <li class="splide__slide">Slide 03</li>
+      </ul>
+    </div>
+  </section>
+    
+    </div>
+  
+</section>
+
+
+<style>
+
+
+    section {
+        margin: 2rem;
+      }
+      
+      .splide__slide {
+        background-color: tomato;
+        padding: 6rem 2rem;
+        text-align: center;
+        font-size: 2rem;
+      }
+      
+      #second-slider .splide__slide {
+        background-color: BlueViolet;
+      }
+      </style>
+
+
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+        new Splide("#first-slider").mount();
+    });
+
+</script>
+
+
+{% schema %}
+  {
+    "name": "Loading page Related product ",
+    "class": "lading-page-product",
+    "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title Name",
+      "default": "Wall Sconces",
+      "placeholder": "Wall Sconces"
+    }
+    ],
+    "blocks": [
+      {
+        "type": "button",
+        "name": "Hyperlink",
+        "settings": [
+          {
+            "type": "text",
+            "id": "btn",
+            "label": "Select your btn title",
+            "default": "Sconces",
+            "placeholder": "Sconces"
+          },
+          {
+            "type": "url",
+            "id": "link",
+            "label": "Select your Link"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "landing page related proudct"
+      }
+    ]
+  }
+{% endschema %}
