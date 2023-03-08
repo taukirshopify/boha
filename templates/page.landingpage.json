@@ -75,16 +75,23 @@
             "collection": "all-products-d"
           }
         },
-        "5bcaf4ad-a1a2-4d61-a2ec-c34f6f185476": {
-          "type": "Singel_Product",
+        "c4860764-7468-4c0c-9be9-14408b4ca331": {
+          "type": "manually",
           "settings": {
-            "product": "aapos-water-stretched-canvas"
+            "url": "shopify:\/\/products\/aapos-water-stretched-canvas",
+            "img": "shopify:\/\/shop_images\/S83b1296f3c674079b98e972fee5d1927n_2_5376e00e-ce18-403c-bc40-32b4a7470a58.jpg",
+            "img2": "shopify:\/\/shop_images\/Annika---Modern-Glass-Wall-Sconce-BO-HA-1668080728_c08cd2c2-eef7-4678-b65e-b020f9c235a5.jpg",
+            "h6": "LIVI",
+            "p": "Modern Glass Wall Lamp",
+            "price": "88",
+            "btn": "Buy Now -",
+            "com": "99"
           }
         }
       },
       "block_order": [
         "e9238a9a-046c-41f2-9c02-4493d9f985c7",
-        "5bcaf4ad-a1a2-4d61-a2ec-c34f6f185476"
+        "c4860764-7468-4c0c-9be9-14408b4ca331"
       ],
       "settings": {
         "title": "Wall Sconces",
