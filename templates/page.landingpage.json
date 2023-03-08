@@ -69,12 +69,6 @@
     "c4ace301-7e18-4f5f-90ac-49509ece4ff1": {
       "type": "lading-page-relatedproduct",
       "blocks": {
-        "e9238a9a-046c-41f2-9c02-4493d9f985c7": {
-          "type": "collection",
-          "settings": {
-            "collection": "all-products-d"
-          }
-        },
         "c4860764-7468-4c0c-9be9-14408b4ca331": {
           "type": "manually",
           "settings": {
@@ -103,7 +97,6 @@
         }
       },
       "block_order": [
-        "e9238a9a-046c-41f2-9c02-4493d9f985c7",
         "c4860764-7468-4c0c-9be9-14408b4ca331",
         "ca7d21ff-38bc-48a1-af28-87ed45ce6ba5"
       ],
