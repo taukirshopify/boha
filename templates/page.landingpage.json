@@ -65,11 +65,18 @@
       "settings": {
         "title": "Wall Sconces"
       }
+    },
+    "c4ace301-7e18-4f5f-90ac-49509ece4ff1": {
+      "type": "lading-page-relatedproduct",
+      "settings": {
+        "title": "Wall Sconces"
+      }
     }
   },
   "order": [
     "main",
     "b62918e8-417f-4637-8cd8-e75a06a1a5ad",
-    "1e6303b9-461f-4ac8-bb37-c7e7dc76a00d"
+    "1e6303b9-461f-4ac8-bb37-c7e7dc76a00d",
+    "c4ace301-7e18-4f5f-90ac-49509ece4ff1"
   ]
 }
