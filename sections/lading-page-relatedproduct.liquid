@@ -1,277 +1,224 @@
 
 
 <section class="collection-list__container ">
-  <div class="slider-header">
-   <p>{{ section.settings.title }}</p>
-   <a href="{{section.settings.url}}" class="btn">{{ section.settings.btn-text}}</a>
-  </div>
-    <div class="slider-proudct">
-    <!-- First slider codes -->
-
-    
+    <div class="slider-header">
+     <p>{{ section.settings.title }}</p>
+     <a href="{{section.settings.url}}" class="btn">{{ section.settings.btn-text}}</a>
     </div>
+      <div class="slider-proudct">
+      <!-- First slider codes -->
   
-</section>
-<section class="splide" id="first-slider" aria-label="Splide Basic HTML Example">
-    <div class="splide__track">
-      <ul class="splide__list">
-
       
-
-       {% for item in section.blocks %}
-         
-        {% case block.type %}
-            {% when 'collection' %}
-                {% for product in collections[item.settings.collection].products %}
-                    <li class="splide__slide"> 
-                      {{product.title}}
-                    </li>
-                {% endfor %}
-            
-            {% when 'product' %}
-                <li class="splide__slide"> 
-                  {{product.title}}
-                  {{ product.price }}
-               </li>
-               {% when 'manually' %}
-                <li class="splide__slide "> 
-                   <div class="singel-proudct-wrapper">
-                     <div class="image-wrapper">
-                      <img src="{{ block.settings.img | img_url:'' }}" alt="">
-                      <img src="{{ block.settings.img2 | img_url:'' }}" class="hover-image" alt="">
-                     </div>
-                   <a href="{{ block.settings.url }}">   <h6>{{ block.settings.h6 }}</h6>
-                   <p>{{ block.settings.p }}</p>
-                   <a href="{{ block.settings.url }}" class="btn shopnow"> {{ block.settings.btn }}   <div class="prices"> <span> $ {{ block.settings.price }}</span> <del> $ {{block.settings.com }}</del> </div> </a>
-                </a>
-                    </div>
-               </li>
-            
-        {% endcase %}
-
-
-       {% endfor %}
+      </div>
     
-       
-
-
-
-      </ul>
-    </div>
   </section>
-
-<style>
-
-
-    section {
-        margin: 2rem;
-      }
+  <section class="splide" id="first-slider" aria-label="Splide Basic HTML Example">
+      <div class="splide__track">
+        <ul class="splide__list">
+  
+          {% for block in section.blocks %}
+           
+          {% case block.type %}
+              {% when 'collection' %}
+                  {% for product in collections[block.settings.collection].products %}
+                      <li class="splide__slide"> 
+                        {{product.title}}
+                      </li>
+                  {% endfor %}
+              
+              {% when 'product' %}
+                  <li class="splide__slide"> 
+                    {{product.title}}
+                    {{ product.price }}
+                 </li>
+                 {% when 'manually' %}
+                  <li class="splide__slide "> 
+                     <div class="singel-proudct-wrapper">
+                       <div class="image-wrapper">
+                        <img src="{{ block.settings.img | img_url:'' }}" alt="">
+                        <img src="{{ block.settings.img2 | img_url:'' }}" class="hover-image" alt="">
+                       </div>
+                     <a href="{{ block.settings.url }}">   <h6>{{ block.settings.h6 }}</h6>
+                     <p>{{ block.settings.p }}</p>
+                     <a href="{{ block.settings.url }}" class="btn shopnow"> {{ block.settings.btn }}   <div class="prices"> <span> $ {{ block.settings.price }}</span> <del> $ {{block.settings.com }}</del> </div> </a>
+                  </a>
+                      </div>
+                 </li>
+              
+          {% endcase %}
+  
+  
+         {% endfor %}
       
-      .splide__slide {
-        background-color: tomato;
-        padding: 6rem 2rem;
-        text-align: center;
-        font-size: 2rem;
-      }
+         
+  
+  
+  
+        </ul>
+      </div>
+    </section>
+  
+  <style>
+  
+  
+      section {
+          margin: 2rem;
+        }
+        
+        .splide__slide {
+          background-color: tomato;
+          padding: 0 7.5px;
       
-      #second-slider .splide__slide {
-        background-color: BlueViolet;
-      }
-      </style>
-
-
-<script>
-    document.addEventListener("DOMContentLoaded", () => {
-
-
-
-        let splide = new Splide( '#first-slider', {
-            pagination :    true ,
-                      paginationKeyboard: true,
-                        type   : 'loop',
-                        drag   : 'free',
-                        perPage: 4,
-                        perMove: 3,
-                        rewindSpeed: 100,
-                        rewindByDrag:true,
-                        breakpoints: {
-                            1020: {
-                                perPage: 3,
-                                perMove: 2,
-                            },
-                            640: {
-                                perPage: 2,
-                                perMove: 1,
+        }
+        .splide__slide  img{
+         width: 100%;
+        }
+        #second-slider .splide__slide {
+          background-color: BlueViolet;
+        }
+        </style>
+  
+  
+  <script>
+      document.addEventListener("DOMContentLoaded", () => {
+  
+  
+  
+          let splide = new Splide( '#first-slider', {
+              pagination :    true ,
+                        paginationKeyboard: true,
+                          type   : 'loop',
+                          drag   : 'free',
+                          perPage: 4,
+                          perMove: 3,
+                          rewindSpeed: 100,
+                          rewindByDrag:true,
+                          breakpoints: {
+                              1020: {
+                                  perPage: 3,
+                                  perMove: 2,
+                              },
+                              640: {
+                                  perPage: 2,
+                                  perMove: 1,
+                              }
                             }
-                          }
-                      } );
-                      
-                      splide.mount(); 
-    });
-
-</script>
-
-
-{% schema %}
-  {
-    "name": "Loading  Related product",
-    "class": "lading-page-product",
-    "settings": [
+                        } );
+                        
+                        splide.mount(); 
+      });
+  
+  </script>
+  
+  
+  {% schema %}
     {
-      "type": "text",
-      "id": "title",
-      "label": "Title Name",
-      "default": "Wall Sconces",
-      "placeholder": "Wall Sconces"
-    },
-    {
+      "name": "Loading  Related product",
+      "class": "lading-page-product",
+      "settings": [
+      {
         "type": "text",
-        "id": "btn-text",
-        "label": "Button title",
-        "default": "Shop All Products",
-        "placeholder": "Shop All Products"
-    },
-    {
-        "type": "url",
-        "id": "url",
-        "label": "Select your link"
-    }
-    ],
-    "blocks": [
+        "id": "title",
+        "label": "Title Name",
+        "default": "Wall Sconces",
+        "placeholder": "Wall Sconces"
+      },
+      {
+          "type": "text",
+          "id": "btn-text",
+          "label": "Button title",
+          "default": "Shop All Products",
+          "placeholder": "Shop All Products"
+      },
+      {
+          "type": "url",
+          "id": "url",
+          "label": "Select your link"
+      }
+      ],
+      "blocks": [
+        {
+          "type": "manually",
+          "name": "manually",
+          "settings": [
+  
+          {
+              "type": "url",
+              "id": "url",
+              "label": "Select your Url"
+          },
+          {
+              "type": "image_picker",
+              "id": "img",
+              "label": "Select your first image"
+          },
+          {
+              "type": "image_picker",
+              "id": "img2",
+              "label": "Select your hover image"
+          },
+          {
+              "type": "text",
+              "id": "h6",
+              "label": "Proudct title",
+              "default": "LIVI"
+          },
+          {
+              "type": "text",
+              "id": "p",
+              "label": "Proudct description",
+              "default": "Modern Glass Wall Lamp"
+          },
+          {
+              "type": "text",
+              "id": "price",
+              "label": "Proudct price",
+              "default": "88"
+          },
+          {
+              "type": "text",
+              "id": "btn",
+              "label": "Shop now button title",
+              "default": "Buy Now -"
+          },
+          {
+              "type": "text",
+              "id": "com",
+              "label": "compare price",
+              "default": "99"
+          }
+          
+          ]
+        },
+        {
+          "type": "collection",
+          "name": "Collection",
+          "settings": [
+          {
+              "type": "collection",
+              "id": "collection",
+              "label": "Select your Collection"
+          }
+          ]
+        },
+        {
+          "type": "Singel_Product",
+          "name": "Product",
+          "settings": [
+        
          {
-        "type": "manually",
-        "name": "manually",
-        "settings": [
-
-        {
-            "type": "url",
-            "id": "url",
-            "label": "Select your Url"
-        },
-        {
-            "type": "image_picker",
-            "id": "img",
-            "label": "Select your first image"
-        },
-        {
-            "type": "image_picker",
-            "id": "img2",
-            "label": "Select your hover image"
-        },
-        {
-            "type": "text",
-            "id": "h6",
-            "label": "Proudct title",
-            "default": "LIVI"
-        },
-        {
-            "type": "text",
-            "id": "p",
-            "label": "Proudct description",
-            "default": "Modern Glass Wall Lamp"
-        },
-        {
-            "type": "text",
-            "id": "price",
-            "label": "Proudct price",
-            "default": "88"
-        },
-        {
-            "type": "text",
-            "id": "btn",
-            "label": "Shop now button title",
-            "default": "Buy Now -"
-        },
-        {
-            "type": "text",
-            "id": "com",
-            "label": "compare price",
-            "default": "99"
+          "type": "product",
+          "id": "product",
+          "label": "Select your Product"
+         }
+          ]
         }
-        
-        ]
-      },
-      {
-        "type": "manually",
-        "name": "manually",
-        "settings": [
-
+      ],
+      "presets": [
         {
-            "type": "url",
-            "id": "url",
-            "label": "Select your Url"
-        },
-        {
-            "type": "image_picker",
-            "id": "img",
-            "label": "Select your first image"
-        },
-        {
-            "type": "image_picker",
-            "id": "img2",
-            "label": "Select your hover image"
-        },
-        {
-            "type": "text",
-            "id": "h6",
-            "label": "Proudct title",
-            "default": "LIVI"
-        },
-        {
-            "type": "text",
-            "id": "p",
-            "label": "Proudct description",
-            "default": "Modern Glass Wall Lamp"
-        },
-        {
-            "type": "text",
-            "id": "price",
-            "label": "Proudct price",
-            "default": "88"
-        },
-        {
-            "type": "text",
-            "id": "btn",
-            "label": "Shop now button title",
-            "default": "Buy Now -"
-        },
-        {
-            "type": "text",
-            "id": "com",
-            "label": "compare price",
-            "default": "99"
+          "name": "landing related proudct"
         }
-        
-        ]
-      },
-      {
-        "type": "collection",
-        "name": "Collection",
-        "settings": [
-        {
-            "type": "collection",
-            "id": "collection",
-            "label": "Select your Collection"
-        }
-        ]
-      },
-      {
-        "type": "Singel_Product",
-        "name": "Product",
-        "settings": [
-      
-       {
-        "type": "product",
-        "id": "product",
-        "label": "Select your Product"
-       }
-        ]
-      }
-    ],
-    "presets": [
-      {
-        "name": "landing related proudct"
-      }
-    ]
-  }
-{% endschema %}
+      ]
+    }
+  {% endschema %}
+  
