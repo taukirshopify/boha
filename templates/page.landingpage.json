@@ -101,6 +101,8 @@
         "ca7d21ff-38bc-48a1-af28-87ed45ce6ba5"
       ],
       "settings": {
+        "shopurl": "shopify:\/\/collections\/minimal-home",
+        "shopall": "Shop All",
         "title": "YOU MAY ALSO LIKE",
         "btn-text": "Shop All Products",
         "url": ""
