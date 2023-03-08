@@ -68,34 +68,6 @@
     },
     "c4ace301-7e18-4f5f-90ac-49509ece4ff1": {
       "type": "lading-page-relatedproduct",
-      "blocks": {
-        "9e9b3272-8c37-44c5-bd78-51f82645d66a": {
-          "type": "button",
-          "settings": {
-            "btn": "Sconces",
-            "link": "shopify:\/\/collections\/minimal-home"
-          }
-        },
-        "561ff107-3392-40ad-ad8f-2eb17e49981c": {
-          "type": "button",
-          "settings": {
-            "btn": "Sconces",
-            "link": ""
-          }
-        },
-        "f820611d-af65-45f7-8a4f-6cca4a0c4e8d": {
-          "type": "button",
-          "settings": {
-            "btn": "Sconces",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "9e9b3272-8c37-44c5-bd78-51f82645d66a",
-        "561ff107-3392-40ad-ad8f-2eb17e49981c",
-        "f820611d-af65-45f7-8a4f-6cca4a0c4e8d"
-      ],
       "settings": {
         "title": "Wall Sconces"
       }
