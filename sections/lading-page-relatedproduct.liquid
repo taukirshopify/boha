@@ -38,10 +38,15 @@
                         <img src="{{ block.settings.img | img_url:'' }}" alt="">
                         <img src="{{ block.settings.img2 | img_url:'' }}" class="hover-image" alt="">
                        </div>
-                            <a href="{{ block.settings.url }}">   <h6>{{ block.settings.h6 }}</h6>
-                     <p>{{ block.settings.p }}</p>
-                     <a href="{{ block.settings.url }}" class="btn shopnow"> {{ block.settings.btn }}   <div class="prices"> <span> $ {{ block.settings.price }}</span> <del> $ {{block.settings.com }}</del> </div> </a>
-                  </a>
+                      <div class="singel-porduct-content-wrapper">
+                      
+                        <a href="{{ block.settings.url }}">   <h6>{{ block.settings.h6 }}</h6>  
+                        <p>{{ block.settings.p }}</p>
+                         </a>
+                       <a href="{{ block.settings.url }}" class="btn shopnow"> {{ block.settings.btn }}   <div class="prices"> <span> $ {{ block.settings.price }}</span> <del> $ {{block.settings.com }}</del> </div> </a>
+                  
+                      </div>
+
                       </div>
                  </li>
               
@@ -78,6 +83,10 @@
        transition: 0.3s all ;
 }   .image-wrapper:hover img.hover-image {
     opacity: 1;
+}
+.singel-porduct-content-wrapper{
+  background:#f4f4f4;
+  padding: 5px ;
 }
         
         .splide__slide {
