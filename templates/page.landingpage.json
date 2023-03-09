@@ -207,25 +207,27 @@
         "ca7d21ff-38bc-48a1-af28-87ed45ce6ba5": {
           "type": "manually",
           "settings": {
-            "url": "",
+            "url": "shopify:\/\/products\/livi-modern-nordic-wall-lamp",
             "img": "shopify:\/\/shop_images\/Blassbody_gold-black-vintage-industrial-wall-sconc_variants-1_3_9144be9a-d58b-4f9b-9e30-2d0ad78a7e85.jpg",
             "img2": "shopify:\/\/shop_images\/ABlack_nordic-personality-creative-living-room_variants-1_1_2_f35561dd-edb6-416c-a8ed-525ae89e86a7.jpg",
             "h6": "LIVI",
             "p": "Modern Glass Wall Lamp",
-            "price": "88",
-            "btn": "Buy Now -",
-            "com": "99"
+            "price": "$104,95",
+            "btn": "Buy Now",
+            "com": ""
           }
         },
         "d59efb76-2cf7-4840-a5c3-a9ce912ac5fc": {
           "type": "manually",
           "settings": {
-            "url": "",
-            "h6": "LIVI",
-            "p": "Modern Glass Wall Lamp",
-            "price": "88",
-            "btn": "Buy Now -",
-            "com": "99"
+            "url": "shopify:\/\/products\/annika",
+            "img": "shopify:\/\/shop_images\/Annika---Modern-Glass-Wall-Sconce-BO-HA-1668080724_2.jpg",
+            "img2": "shopify:\/\/shop_images\/Annika---Modern-Glass-Wall-Sconce-BO-HA-1668080728_2.jpg",
+            "h6": "Annika",
+            "p": "Modern Glass Wall Sconce",
+            "price": "$149,95",
+            "btn": "Buy Now",
+            "com": ""
           }
         }
       },
