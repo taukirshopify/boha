@@ -199,7 +199,7 @@
             "img2": "shopify:\/\/shop_images\/H0a25707006d048a397edf227a5638f58G.jpg_960x960_ded0204d-57f6-461d-8a9d-fcebf6e502a2_1.png",
             "h6": "AMALIA",
             "p": "Modern Nordic Gold Wall Sconces",
-            "price": "129,95",
+            "price": "$129,95",
             "btn": "Buy Now",
             "com": ""
           }
@@ -229,12 +229,26 @@
             "btn": "Buy Now",
             "com": ""
           }
+        },
+        "711208de-8ead-43a3-ac4f-c7f07f22873a": {
+          "type": "manually",
+          "settings": {
+            "url": "",
+            "img": "shopify:\/\/shop_images\/Adan---Metal-Wall-Lamp-BO-HA-1668079408_2.jpg",
+            "img2": "shopify:\/\/shop_images\/Adan---Metal-Wall-Lamp-BO-HA-1668079412_1.jpg",
+            "h6": "Adan",
+            "p": "Metal Wall Lamp",
+            "price": "$99,95",
+            "btn": "Buy Now",
+            "com": ""
+          }
         }
       },
       "block_order": [
         "c4860764-7468-4c0c-9be9-14408b4ca331",
         "ca7d21ff-38bc-48a1-af28-87ed45ce6ba5",
-        "d59efb76-2cf7-4840-a5c3-a9ce912ac5fc"
+        "d59efb76-2cf7-4840-a5c3-a9ce912ac5fc",
+        "711208de-8ead-43a3-ac4f-c7f07f22873a"
       ],
       "settings": {
         "shopurl": "shopify:\/\/collections\/all",
