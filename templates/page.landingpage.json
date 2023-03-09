@@ -242,13 +242,25 @@
             "btn": "Buy Now",
             "com": ""
           }
+        },
+        "590df7b3-5f52-405e-b8b9-0a39bd50c467": {
+          "type": "manually",
+          "settings": {
+            "url": "",
+            "h6": "LIVI",
+            "p": "Modern Glass Wall Lamp",
+            "price": "88",
+            "btn": "Buy Now -",
+            "com": "99"
+          }
         }
       },
       "block_order": [
         "c4860764-7468-4c0c-9be9-14408b4ca331",
         "ca7d21ff-38bc-48a1-af28-87ed45ce6ba5",
         "d59efb76-2cf7-4840-a5c3-a9ce912ac5fc",
-        "711208de-8ead-43a3-ac4f-c7f07f22873a"
+        "711208de-8ead-43a3-ac4f-c7f07f22873a",
+        "590df7b3-5f52-405e-b8b9-0a39bd50c467"
       ],
       "settings": {
         "shopurl": "shopify:\/\/collections\/all",
