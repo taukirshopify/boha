@@ -19,8 +19,8 @@
         "0b3a501c-e7da-46c7-9bbe-1519357c46d1": {
           "type": "button",
           "settings": {
-            "btn": "Sconces",
-            "link": ""
+            "btn": "Gold Wall Sconces",
+            "link": "https:\/\/bo-ha.com\/collections\/gold-wall-sconces"
           }
         },
         "cfbef4a8-b282-4359-81ac-ed97d29c4d4e": {
@@ -29,12 +29,28 @@
             "btn": "Modern Wall Sconces",
             "link": "shopify:\/\/collections\/modern-wall-sconces-1"
           }
+        },
+        "7baf4a82-585a-42be-acc6-0620a524aa0c": {
+          "type": "button",
+          "settings": {
+            "btn": "Plug In Wall Sconce",
+            "link": "shopify:\/\/collections\/plug-in-wall-sconce"
+          }
+        },
+        "71523e05-0fcc-44a0-8f15-bac416eaeab6": {
+          "type": "button",
+          "settings": {
+            "btn": "Wall Sconces For Living Room",
+            "link": "shopify:\/\/collections\/wall-sconces-for-living-room"
+          }
         }
       },
       "block_order": [
         "121b0ae8-5765-461d-b4bb-5711e1f89bc8",
         "0b3a501c-e7da-46c7-9bbe-1519357c46d1",
-        "cfbef4a8-b282-4359-81ac-ed97d29c4d4e"
+        "cfbef4a8-b282-4359-81ac-ed97d29c4d4e",
+        "7baf4a82-585a-42be-acc6-0620a524aa0c",
+        "71523e05-0fcc-44a0-8f15-bac416eaeab6"
       ],
       "settings": {
         "title": "Wall Sconces"
@@ -72,6 +88,12 @@
       ],
       "settings": {
         "title": "Pendant Lights"
+      }
+    },
+    "9a86acbc-fde9-411b-b2be-b2879e1af25b": {
+      "type": "accordain-tabs",
+      "settings": {
+        "title": "Faucets"
       }
     },
     "c4ace301-7e18-4f5f-90ac-49509ece4ff1": {
@@ -133,6 +155,7 @@
     "main",
     "b62918e8-417f-4637-8cd8-e75a06a1a5ad",
     "1e6303b9-461f-4ac8-bb37-c7e7dc76a00d",
+    "9a86acbc-fde9-411b-b2be-b2879e1af25b",
     "c4ace301-7e18-4f5f-90ac-49509ece4ff1"
   ]
 }
