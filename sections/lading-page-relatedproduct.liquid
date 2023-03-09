@@ -47,7 +47,7 @@
                          </a>
                        <a href="{{ block.settings.url }}" class="btn shopnow"> {{ block.settings.btn }}  
                        
-                       <div class="prices"> <span> $ {{ block.settings.price }}</span> {% if my_variable == blank %} <del> - $  {{block.settings.com }}</del>{% endif %} </div> </a>
+                       <div class="prices"> <span> $ {{ block.settings.price }}</span> {% if block.settings.com == blank %} <del> - $  {{block.settings.com }}</del>{% endif %} </div> </a>
                   
                       </div>
 
