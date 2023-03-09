@@ -50,6 +50,20 @@
             "btn": "Battery Operated Wall Sconces",
             "link": "shopify:\/\/collections\/battery-operated-wall-sconces"
           }
+        },
+        "7118ca2a-d154-4a4b-a3c5-bf5ff99524c1": {
+          "type": "button",
+          "settings": {
+            "btn": "Wall Lights for Bedroom",
+            "link": "shopify:\/\/collections\/wall-lights-for-bedroom"
+          }
+        },
+        "c6579537-c3fc-47a7-aec9-249937826fa5": {
+          "type": "button",
+          "settings": {
+            "btn": "Dining Room Lighting Ideas",
+            "link": "shopify:\/\/collections\/dining-room-lighting-ideas"
+          }
         }
       },
       "block_order": [
@@ -58,7 +72,9 @@
         "cfbef4a8-b282-4359-81ac-ed97d29c4d4e",
         "7baf4a82-585a-42be-acc6-0620a524aa0c",
         "71523e05-0fcc-44a0-8f15-bac416eaeab6",
-        "eb0cb0f9-1c04-497f-821d-a4acf6a2e2e1"
+        "eb0cb0f9-1c04-497f-821d-a4acf6a2e2e1",
+        "7118ca2a-d154-4a4b-a3c5-bf5ff99524c1",
+        "c6579537-c3fc-47a7-aec9-249937826fa5"
       ],
       "settings": {
         "title": "Wall Sconces"
@@ -70,29 +86,61 @@
         "39fc04fb-e05f-4fba-8671-8b67233c5bf9": {
           "type": "button",
           "settings": {
-            "btn": "Sconces",
-            "link": ""
+            "btn": "Glass Pendant Lights",
+            "link": "shopify:\/\/collections\/glass-pendant-lights"
           }
         },
         "c2b90bae-218f-4918-9b19-92f9768bd309": {
           "type": "button",
           "settings": {
-            "btn": "Sconces",
-            "link": ""
+            "btn": "Modern Pendant Lighting",
+            "link": "shopify:\/\/collections\/modern-pendant-lighting"
           }
         },
         "a744edc8-33f0-4d38-ae93-824fb00d41db": {
           "type": "button",
           "settings": {
-            "btn": "Sconces",
-            "link": ""
+            "btn": "Gold Pendant Light",
+            "link": "shopify:\/\/collections\/gold-pendant-light"
+          }
+        },
+        "06738838-3c42-46a5-b354-0b1b4bb43a48": {
+          "type": "button",
+          "settings": {
+            "btn": "Wood Pendant Light",
+            "link": "shopify:\/\/collections\/wood-pendant-light"
+          }
+        },
+        "4e6a593a-b1e2-414f-8dac-5781e5baf669": {
+          "type": "button",
+          "settings": {
+            "btn": "Kitchen Pendant Lighting",
+            "link": "shopify:\/\/collections\/kitchen-pendant-lighting"
+          }
+        },
+        "79b03027-2bc1-4d39-ac4e-1b6327798a5e": {
+          "type": "button",
+          "settings": {
+            "btn": "Hanging Lights For Bedroom",
+            "link": "shopify:\/\/collections\/hanging-lights-for-bedroom"
+          }
+        },
+        "2898c28c-da94-4619-90fa-02b9cf2191b0": {
+          "type": "button",
+          "settings": {
+            "btn": "Dining Room Lighting Ideas",
+            "link": "shopify:\/\/collections\/dining-room-lighting-ideas"
           }
         }
       },
       "block_order": [
         "39fc04fb-e05f-4fba-8671-8b67233c5bf9",
         "c2b90bae-218f-4918-9b19-92f9768bd309",
-        "a744edc8-33f0-4d38-ae93-824fb00d41db"
+        "a744edc8-33f0-4d38-ae93-824fb00d41db",
+        "06738838-3c42-46a5-b354-0b1b4bb43a48",
+        "4e6a593a-b1e2-414f-8dac-5781e5baf669",
+        "79b03027-2bc1-4d39-ac4e-1b6327798a5e",
+        "2898c28c-da94-4619-90fa-02b9cf2191b0"
       ],
       "settings": {
         "title": "Pendant Lights"
@@ -100,6 +148,42 @@
     },
     "9a86acbc-fde9-411b-b2be-b2879e1af25b": {
       "type": "accordain-tabs",
+      "blocks": {
+        "67e9c0a9-81e7-41ca-8156-b15879bfcfad": {
+          "type": "button",
+          "settings": {
+            "btn": "Gold Kitchen Faucet",
+            "link": "shopify:\/\/collections\/gold-kitchen-faucet"
+          }
+        },
+        "63678fc7-968f-4095-bcef-7d30fd756168": {
+          "type": "button",
+          "settings": {
+            "btn": "Bathroom Sink Faucets",
+            "link": "shopify:\/\/collections\/bathroom-sink-faucets"
+          }
+        },
+        "6fe23f1f-8708-4948-a2c8-a1ad31b49a30": {
+          "type": "button",
+          "settings": {
+            "btn": "Gold Bathroom Faucet",
+            "link": "shopify:\/\/collections\/gold-bathroom-faucet"
+          }
+        },
+        "b8c29735-7829-492d-a57e-22dfdffda2e3": {
+          "type": "button",
+          "settings": {
+            "btn": "Black Kitchen Faucet",
+            "link": "shopify:\/\/collections\/black-kitchen-faucet"
+          }
+        }
+      },
+      "block_order": [
+        "67e9c0a9-81e7-41ca-8156-b15879bfcfad",
+        "63678fc7-968f-4095-bcef-7d30fd756168",
+        "6fe23f1f-8708-4948-a2c8-a1ad31b49a30",
+        "b8c29735-7829-492d-a57e-22dfdffda2e3"
+      ],
       "settings": {
         "title": "Faucets"
       }
