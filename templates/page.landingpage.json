@@ -294,6 +294,19 @@
             "btn": "Buy Now",
             "com": ""
           }
+        },
+        "3688daf0-62e6-44d2-8185-18f75b485086": {
+          "type": "manually",
+          "settings": {
+            "url": "shopify:\/\/products\/aada-modern-nordic-kitchen-pendant-lighting",
+            "img": "shopify:\/\/shop_images\/Aada---Modern-Nordic-Glass-Pendant-Lights-BO-HA-1668078191_1.jpg",
+            "img2": "shopify:\/\/shop_images\/Aada---Modern-Nordic-Glass-Pendant-Lights-BO-HA-1668078199_1.jpg",
+            "h6": "AADA",
+            "p": "Modern Nordic Kitchen Pendant Lighting",
+            "price": "$119,95",
+            "btn": "Buy Now",
+            "com": ""
+          }
         }
       },
       "block_order": [
@@ -304,7 +317,8 @@
         "590df7b3-5f52-405e-b8b9-0a39bd50c467",
         "4763eb5b-0cf1-4a6c-ae53-d4dd1ce1f8d4",
         "149309b3-edcb-4d50-bf65-5f648c09a5f7",
-        "19f427e1-6c62-4e4d-81a5-f5380056ce12"
+        "19f427e1-6c62-4e4d-81a5-f5380056ce12",
+        "3688daf0-62e6-44d2-8185-18f75b485086"
       ],
       "settings": {
         "shopurl": "shopify:\/\/collections\/all",
