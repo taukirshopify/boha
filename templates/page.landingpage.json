@@ -223,7 +223,7 @@
             "url": "shopify:\/\/products\/annika",
             "img": "shopify:\/\/shop_images\/Annika---Modern-Glass-Wall-Sconce-BO-HA-1668080724_2.jpg",
             "img2": "shopify:\/\/shop_images\/Annika---Modern-Glass-Wall-Sconce-BO-HA-1668080728_2.jpg",
-            "h6": "Annika",
+            "h6": "ANNIKA",
             "p": "Modern Glass Wall Sconce",
             "price": "$149,95",
             "btn": "Buy Now",
@@ -255,6 +255,32 @@
             "btn": "Buy Now",
             "com": ""
           }
+        },
+        "4763eb5b-0cf1-4a6c-ae53-d4dd1ce1f8d4": {
+          "type": "manually",
+          "settings": {
+            "url": "shopify:\/\/products\/benthe-post-modern-gold-wall-sconces",
+            "img": "shopify:\/\/shop_images\/Benthe---Post-Modern-Wall-Lamp-BO-HA-1668080676_2.jpg",
+            "img2": "shopify:\/\/shop_images\/Benthe---Post-Modern-Wall-Lamp-BO-HA-1668080681_2.jpg",
+            "h6": "BENTHE",
+            "p": "Post Modern Wall Lamp",
+            "price": "$79,95",
+            "btn": "Buy Now",
+            "com": ""
+          }
+        },
+        "149309b3-edcb-4d50-bf65-5f648c09a5f7": {
+          "type": "manually",
+          "settings": {
+            "url": "",
+            "img": "shopify:\/\/shop_images\/Saskia---Modern-Nordic-Wall-Lamp-BO-HA-1668078604_2.jpg",
+            "img2": "shopify:\/\/shop_images\/Gray_nordic-wood-wall-sconce-light-fixture-fo_variants-2_2.jpg",
+            "h6": "SASKIA",
+            "p": "Modern Nordic Wall Lamp",
+            "price": "$69,95",
+            "btn": "Buy Now",
+            "com": ""
+          }
         }
       },
       "block_order": [
@@ -262,7 +288,9 @@
         "ca7d21ff-38bc-48a1-af28-87ed45ce6ba5",
         "d59efb76-2cf7-4840-a5c3-a9ce912ac5fc",
         "711208de-8ead-43a3-ac4f-c7f07f22873a",
-        "590df7b3-5f52-405e-b8b9-0a39bd50c467"
+        "590df7b3-5f52-405e-b8b9-0a39bd50c467",
+        "4763eb5b-0cf1-4a6c-ae53-d4dd1ce1f8d4",
+        "149309b3-edcb-4d50-bf65-5f648c09a5f7"
       ],
       "settings": {
         "shopurl": "shopify:\/\/collections\/all",
