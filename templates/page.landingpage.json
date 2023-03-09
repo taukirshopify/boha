@@ -320,6 +320,19 @@
             "btn": "Buy Now",
             "com": ""
           }
+        },
+        "6e5e31d0-e077-44ac-b7a2-94fdd63e1512": {
+          "type": "manually",
+          "settings": {
+            "url": "shopify:\/\/products\/kela-modern-nordic-wall-sconces",
+            "img": "shopify:\/\/shop_images\/Kela---Nordic-Wall-Lamp-BO-HA-1668078713_1.jpg",
+            "img2": "shopify:\/\/shop_images\/Kela---Nordic-Wall-Lamp-BO-HA-1668078728.jpg",
+            "h6": "KELA",
+            "p": "Nordic Wall Lamp",
+            "price": "$104,95",
+            "btn": "Buy Now",
+            "com": ""
+          }
         }
       },
       "block_order": [
@@ -332,7 +345,8 @@
         "149309b3-edcb-4d50-bf65-5f648c09a5f7",
         "19f427e1-6c62-4e4d-81a5-f5380056ce12",
         "3688daf0-62e6-44d2-8185-18f75b485086",
-        "645d9526-b6fa-4e5a-8e83-2d7c7803ee8f"
+        "645d9526-b6fa-4e5a-8e83-2d7c7803ee8f",
+        "6e5e31d0-e077-44ac-b7a2-94fdd63e1512"
       ],
       "settings": {
         "shopurl": "shopify:\/\/collections\/all",
