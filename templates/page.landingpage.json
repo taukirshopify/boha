@@ -43,6 +43,13 @@
             "btn": "Wall Sconces For Living Room",
             "link": "shopify:\/\/collections\/wall-sconces-for-living-room"
           }
+        },
+        "eb0cb0f9-1c04-497f-821d-a4acf6a2e2e1": {
+          "type": "button",
+          "settings": {
+            "btn": "Battery Operated Wall Sconces",
+            "link": "shopify:\/\/collections\/battery-operated-wall-sconces"
+          }
         }
       },
       "block_order": [
@@ -50,7 +57,8 @@
         "0b3a501c-e7da-46c7-9bbe-1519357c46d1",
         "cfbef4a8-b282-4359-81ac-ed97d29c4d4e",
         "7baf4a82-585a-42be-acc6-0620a524aa0c",
-        "71523e05-0fcc-44a0-8f15-bac416eaeab6"
+        "71523e05-0fcc-44a0-8f15-bac416eaeab6",
+        "eb0cb0f9-1c04-497f-821d-a4acf6a2e2e1"
       ],
       "settings": {
         "title": "Wall Sconces"
