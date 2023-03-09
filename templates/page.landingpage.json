@@ -307,6 +307,19 @@
             "btn": "Buy Now",
             "com": ""
           }
+        },
+        "645d9526-b6fa-4e5a-8e83-2d7c7803ee8f": {
+          "type": "manually",
+          "settings": {
+            "url": "shopify:\/\/products\/mia",
+            "img": "shopify:\/\/shop_images\/Mia---Nordic-Pendant-Light-BO-HA-1668078818_2.jpg",
+            "img2": "shopify:\/\/shop_images\/Mia---Nordic-Pendant-Light-BO-HA-1668078832.jpg",
+            "h6": "MIA",
+            "p": "Nordic Pendant Light",
+            "price": "99,95",
+            "btn": "Buy Now",
+            "com": ""
+          }
         }
       },
       "block_order": [
@@ -318,7 +331,8 @@
         "4763eb5b-0cf1-4a6c-ae53-d4dd1ce1f8d4",
         "149309b3-edcb-4d50-bf65-5f648c09a5f7",
         "19f427e1-6c62-4e4d-81a5-f5380056ce12",
-        "3688daf0-62e6-44d2-8185-18f75b485086"
+        "3688daf0-62e6-44d2-8185-18f75b485086",
+        "645d9526-b6fa-4e5a-8e83-2d7c7803ee8f"
       ],
       "settings": {
         "shopurl": "shopify:\/\/collections\/all",
