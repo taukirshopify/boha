@@ -247,11 +247,13 @@
           "type": "manually",
           "settings": {
             "url": "",
-            "h6": "LIVI",
+            "img": "shopify:\/\/shop_images\/Alegria---Modern-Glass-Wall-Lamp-BO-HA-1668079488_1.jpg",
+            "img2": "shopify:\/\/shop_images\/Alegria---Modern-Glass-Wall-Lamp-BO-HA-1668079488_1.jpg",
+            "h6": "ALEGRIA",
             "p": "Modern Glass Wall Lamp",
-            "price": "88",
-            "btn": "Buy Now -",
-            "com": "99"
+            "price": "$179,95",
+            "btn": "Buy Now",
+            "com": ""
           }
         }
       },
