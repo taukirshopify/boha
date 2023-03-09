@@ -367,7 +367,7 @@
         "shopall": "Shop All",
         "title": "YOU MAY ALSO LIKE",
         "btn-text": "Shop All Products",
-        "url": ""
+        "url": "shopify:\/\/collections\/shop-all"
       }
     }
   },
