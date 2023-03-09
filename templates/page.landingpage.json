@@ -333,6 +333,19 @@
             "btn": "Buy Now",
             "com": ""
           }
+        },
+        "bdddf146-4345-4c55-9a29-8935f6763c0e": {
+          "type": "manually",
+          "settings": {
+            "url": "shopify:\/\/products\/millay-glass-pendant-lights",
+            "img": "shopify:\/\/shop_images\/H402780c9f8a7428194eb05069921599a6_1.jpg",
+            "img2": "shopify:\/\/shop_images\/H1514487e87ff48d2b98e9812cd9462e8v.jpg",
+            "h6": "MILLAY",
+            "p": "Glass Pendant Lights",
+            "price": "$109,95",
+            "btn": "Buy Now",
+            "com": ""
+          }
         }
       },
       "block_order": [
@@ -346,7 +359,8 @@
         "19f427e1-6c62-4e4d-81a5-f5380056ce12",
         "3688daf0-62e6-44d2-8185-18f75b485086",
         "645d9526-b6fa-4e5a-8e83-2d7c7803ee8f",
-        "6e5e31d0-e077-44ac-b7a2-94fdd63e1512"
+        "6e5e31d0-e077-44ac-b7a2-94fdd63e1512",
+        "bdddf146-4345-4c55-9a29-8935f6763c0e"
       ],
       "settings": {
         "shopurl": "shopify:\/\/collections\/all",
