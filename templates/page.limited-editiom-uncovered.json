@@ -10,6 +10,7 @@
       "type": "dynamic-image-with-text",
       "settings": {
         "section_heading": "",
+        "image": "shopify:\/\/shop_images\/Livi_Silver_Dark_Gray02_0004.png",
         "crop": "center",
         "desktop_height": "natural",
         "mobile_height": "natural",
