@@ -1,4 +1,4 @@
-<script src="{{ 'splide.min.js' | asset_url }}" defer="defer"></script>
+<script src="{{ 'splide.min.js' | asset_url }}" ></script>
 {{ 'splide.min.css' | asset_url | stylesheet_tag }} 
 
 <div class="shop-all-wrapper">
@@ -249,7 +249,8 @@
   
   <script>
       document.addEventListener("DOMContentLoaded", () => {
-  
+    
+       myDisplay();
   
   
           let splide = new Splide( '#first-slider', {
