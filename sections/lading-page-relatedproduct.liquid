@@ -47,7 +47,7 @@
                          </a>
                        <a href="{{ block.settings.url }}" class="btn shopnow"> {{ block.settings.btn }}  
                        
-                       <div class="prices"> <span>  {{ block.settings.price }}</span> <del>  {{block.settings.com }}</del> </div> </a>
+                       <div class="prices"> <span> $ {{ block.settings.price }}</span> {% if block.settings.com == blank %} {% else %} <del> - $  {{block.settings.com }}</del>{% endif %} </div> </a>
                   
                       </div>
 
@@ -181,7 +181,22 @@
       text-decoration: none;
     font-weight: 600;
 }
+@media only screen and (max-width: 600px) {
+    a.btn.shopnow {
+   font-size: 12px;
+    padding: 5px 9px;
 
+}
+
+  .singel-porduct-content-wrapper {
+    padding: 8px;
+}
+
+  .splide__slide {
+    padding: 0 3.5px;
+}
+  
+}
     .splide__arrow{
     background: #fff;
 }
@@ -196,7 +211,19 @@
     flex-basis: auto;
     overflow-wrap: break-word;
 }
-  
+  .splide__pagination {
+    bottom: -2em;
+    left: 0;
+    padding: 0 1em;
+    position: absolute;
+    right: 0;
+    z-index: 1;
+}
+    .splide__pagination__page.is-active {
+    background: #000;
+    transform: scale(1.4);
+    z-index: 1;
+}
   
   
   .slider-header a.btn {
@@ -235,7 +262,7 @@
                                   perMove: 2,
                               },
                               640: {
-                                  perPage: 2,
+                                  perPage: 1,
                                   perMove: 1,
                               }
                             }
