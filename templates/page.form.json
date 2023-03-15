@@ -4,9 +4,17 @@
       "type": "page",
       "settings": {
       }
+    },
+    "1116f2a5-e548-41c1-9c5a-ab94a72fedbf": {
+      "type": "dynamic-html",
+      "settings": {
+        "title": "Custom HTML",
+        "custom_html": "<div style=\"margin:0 auto;\" class=\"pxFormGenerator\" id=\"g0UBNJjTPAKzcoKWBGuoSw\"><\/div>"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "1116f2a5-e548-41c1-9c5a-ab94a72fedbf"
   ]
 }
