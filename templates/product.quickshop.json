@@ -1,1 +1,75 @@
-{"layout":"quickshop","sections":{"main":{"type":"quickshop","blocks":{"title":{"type":"title","settings":{}},"vendor":{"type":"vendor","settings":{}},"rating":{"type":"rating","settings":{}},"price":{"type":"price","settings":{}},"form":{"type":"form","settings":{}},"description":{"type":"description","settings":{}}},"block_order":["title","vendor","rating","price","form","description"],"settings":{}}},"order":["main"]}
+{
+  "layout": "quickshop",
+  "sections": {
+    "main": {
+      "type": "quickshop",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "vendor": {
+          "type": "vendor",
+          "settings": {
+          }
+        },
+        "rating": {
+          "type": "rating",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "form": {
+          "type": "form",
+          "settings": {
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "wiremo-rating-widget": {
+          "type": "shopify:\/\/apps\/wiremo-product-photo-reviews\/blocks\/wiremo-widget-lite-block\/0328af5a-2ee3-47fb-9d51-288f6ebc78ac",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "wiremo-rating-widget",
+        "vendor",
+        "rating",
+        "price",
+        "form",
+        "description"
+      ],
+      "settings": {
+      }
+    },
+    "wiremo-widget-section": {
+      "type": "apps",
+      "blocks": {
+        "wiremo-widget-section-block": {
+          "type": "shopify:\/\/apps\/wiremo-product-photo-reviews\/blocks\/wiremo-widget-section\/0328af5a-2ee3-47fb-9d51-288f6ebc78ac",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "wiremo-widget-section-block"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main",
+    "wiremo-widget-section"
+  ]
+}

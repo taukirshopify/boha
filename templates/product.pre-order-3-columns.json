@@ -1,1 +1,87 @@
-{"sections":{"main":{"type":"static-product-3-columns","blocks":{"title":{"type":"title","settings":{}},"vendor":{"type":"vendor","settings":{}},"rating":{"type":"rating","settings":{}},"price":{"type":"price","settings":{}},"key_details":{"type":"key_details","settings":{}},"description":{"type":"description","settings":{}}},"block_order":["title","vendor","rating","price","key_details","description"],"settings":{"enable_local_pickup":false}},"recommendations":{"type":"static-product-recommendations","settings":{}},"recently-viewed":{"type":"static-recently-viewed","settings":{}}},"order":["main","recommendations","recently-viewed"]}
+{
+  "sections": {
+    "main": {
+      "type": "static-product-3-columns",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "vendor": {
+          "type": "vendor",
+          "settings": {
+          }
+        },
+        "rating": {
+          "type": "rating",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "key_details": {
+          "type": "key_details",
+          "settings": {
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "wiremo-rating-widget": {
+          "type": "shopify:\/\/apps\/wiremo-product-photo-reviews\/blocks\/wiremo-widget-lite-block\/0328af5a-2ee3-47fb-9d51-288f6ebc78ac",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "wiremo-rating-widget",
+        "vendor",
+        "rating",
+        "price",
+        "key_details",
+        "description"
+      ],
+      "settings": {
+        "enable_local_pickup": false
+      }
+    },
+    "recommendations": {
+      "type": "static-product-recommendations",
+      "settings": {
+      }
+    },
+    "recently-viewed": {
+      "type": "static-recently-viewed",
+      "settings": {
+      }
+    },
+    "wiremo-widget-section": {
+      "type": "apps",
+      "blocks": {
+        "wiremo-widget-section-block": {
+          "type": "shopify:\/\/apps\/wiremo-product-photo-reviews\/blocks\/wiremo-widget-section\/0328af5a-2ee3-47fb-9d51-288f6ebc78ac",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "wiremo-widget-section-block"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main",
+    "wiremo-widget-section",
+    "recommendations",
+    "recently-viewed"
+  ]
+}
