@@ -19,12 +19,6 @@
           "settings": {
           }
         },
-        "rating": {
-          "type": "rating",
-          "disabled": true,
-          "settings": {
-          }
-        },
         "price": {
           "type": "price",
           "settings": {
@@ -144,7 +138,6 @@
         "title",
         "wiremo-rating-widget",
         "vendor",
-        "rating",
         "price",
         "4bf9d556-1056-4051-897a-ae01aa4f2c2b",
         "9427bf07-1b86-46c9-a5d1-035272e78c3d",
