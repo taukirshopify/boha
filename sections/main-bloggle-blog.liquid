@@ -1,6 +1,6 @@
 
   <script async src="https://d2xvgzwm836rzd.cloudfront.net/lazysizes-bloggle.min.js" defer></script>
-  <link href="https://d2xvgzwm836rzd.cloudfront.net/blog_styles--bo-ha-co.min.css?v=1678253611027" type="text/css" rel="stylesheet">
+  <link href="https://d2xvgzwm836rzd.cloudfront.net/blog_styles--bo-ha-co.min.css?v=1679561323185" type="text/css" rel="stylesheet">
   <link href="https://d2xvgzwm836rzd.cloudfront.net/blog-layout.min.css" type="text/css" rel="stylesheet">
 
 <div id="bloggle--blog_layout" >
@@ -202,7 +202,7 @@
         var request = new XMLHttpRequest();
         request.responseType = 'json'
         const suggestUrl = "https://" + window.location.hostname + (window.Shopify && window.Shopify.routes && window.Shopify.routes.root || "/" ) + "search/suggest.json?q=" + searchValue + "&resources[type]=article";
-        request.open('GET', suggestUrl);
+        request.open('GET', suggestUrl, true);
         request.onload = function (e) {
           if (this.status == 200) {
             var articles = this.response.resources.results.articles;
@@ -300,8 +300,7 @@
     }
   }
 </style>
-<style>
-.bloggle--blog-item-date { 
+<style>.bloggle--blog-item-date { 
 font-size: 12px; 
 margin-bottom: 10px; 
 } 
@@ -313,6 +312,5 @@ margin-bottom: 10px;
 
  .bloggle--blog-item-button {
 margin-top: 10px;
- }
-</style>
+ }</style>
 
