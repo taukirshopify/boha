@@ -8,6 +8,13 @@
           "settings": {
           }
         },
+        "wiremo-rating-widget": {
+          "type": "shopify:\/\/apps\/wiremo-product-photo-reviews\/blocks\/wiremo-widget-lite-block\/0328af5a-2ee3-47fb-9d51-288f6ebc78ac",
+          "disabled": true,
+          "settings": {
+            "wiremo_rating_widget_align": "left"
+          }
+        },
         "vendor": {
           "type": "vendor",
           "settings": {
@@ -130,11 +137,6 @@
             "tab_heading_3": "",
             "tab_text_3": ""
           }
-        },
-        "wiremo-rating-widget": {
-          "type": "shopify:\/\/apps\/wiremo-product-photo-reviews\/blocks\/wiremo-widget-lite-block\/0328af5a-2ee3-47fb-9d51-288f6ebc78ac",
-          "settings": {
-          }
         }
       },
       "block_order": [
@@ -165,6 +167,22 @@
         "gallery_video_looping": true,
         "gallery_hover_zoom": "disabled",
         "gallery_click_to_zoom": "always"
+      }
+    },
+    "wiremo-widget-section": {
+      "type": "apps",
+      "blocks": {
+        "wiremo-widget-section-block": {
+          "type": "shopify:\/\/apps\/wiremo-product-photo-reviews\/blocks\/wiremo-widget-section\/0328af5a-2ee3-47fb-9d51-288f6ebc78ac",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "wiremo-widget-section-block"
+      ],
+      "settings": {
+        "include_padding": true
       }
     },
     "recommendations": {
@@ -258,21 +276,6 @@
       "type": "dynamic-custom-liquid",
       "settings": {
         "custom_liquid": ""
-      }
-    },
-    "wiremo-widget-section": {
-      "type": "apps",
-      "blocks": {
-        "wiremo-widget-section-block": {
-          "type": "shopify:\/\/apps\/wiremo-product-photo-reviews\/blocks\/wiremo-widget-section\/0328af5a-2ee3-47fb-9d51-288f6ebc78ac",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "wiremo-widget-section-block"
-      ],
-      "settings": {
       }
     }
   },
