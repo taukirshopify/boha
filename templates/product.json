@@ -10,12 +10,18 @@
         },
         "wiremo-rating-widget": {
           "type": "shopify:\/\/apps\/wiremo-product-photo-reviews\/blocks\/wiremo-widget-lite-block\/0328af5a-2ee3-47fb-9d51-288f6ebc78ac",
+          "disabled": true,
           "settings": {
             "wiremo_rating_widget_align": "left"
           }
         },
         "vendor": {
           "type": "vendor",
+          "settings": {
+          }
+        },
+        "0f38a521-9985-4a69-864d-deb5e2ae47ad": {
+          "type": "rating",
           "settings": {
           }
         },
@@ -138,6 +144,7 @@
         "title",
         "wiremo-rating-widget",
         "vendor",
+        "0f38a521-9985-4a69-864d-deb5e2ae47ad",
         "price",
         "4bf9d556-1056-4051-897a-ae01aa4f2c2b",
         "9427bf07-1b86-46c9-a5d1-035272e78c3d",
