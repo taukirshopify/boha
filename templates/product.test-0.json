@@ -8,6 +8,13 @@
           "settings": {
           }
         },
+        "wiremo-rating-widget": {
+          "type": "shopify:\/\/apps\/wiremo-product-photo-reviews\/blocks\/wiremo-widget-lite-block\/0328af5a-2ee3-47fb-9d51-288f6ebc78ac",
+          "disabled": true,
+          "settings": {
+            "wiremo_rating_widget_align": "left"
+          }
+        },
         "vendor": {
           "type": "vendor",
           "settings": {
@@ -124,11 +131,6 @@
             "tab_heading_3": "",
             "tab_text_3": ""
           }
-        },
-        "wiremo-rating-widget": {
-          "type": "shopify:\/\/apps\/wiremo-product-photo-reviews\/blocks\/wiremo-widget-lite-block\/0328af5a-2ee3-47fb-9d51-288f6ebc78ac",
-          "settings": {
-          }
         }
       },
       "block_order": [
@@ -158,6 +160,22 @@
         "gallery_video_looping": true,
         "gallery_hover_zoom": "disabled",
         "gallery_click_to_zoom": "always"
+      }
+    },
+    "wiremo-widget-section": {
+      "type": "apps",
+      "blocks": {
+        "wiremo-widget-section-block": {
+          "type": "shopify:\/\/apps\/wiremo-product-photo-reviews\/blocks\/wiremo-widget-section\/0328af5a-2ee3-47fb-9d51-288f6ebc78ac",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "wiremo-widget-section-block"
+      ],
+      "settings": {
+        "include_padding": true
       }
     },
     "recommendations": {
@@ -251,21 +269,6 @@
       "type": "dynamic-custom-liquid",
       "settings": {
         "custom_liquid": "<script type=\"text\/javascript\">\nvar _learnq = _learnq || [];\nfunction addedToCart() {\n  fetch(`${window.location.origin}\/cart.js`)\n  .then(res => res.clone().json().then(data => {\n    var cart = {\n      total_price: data.total_price\/100,\n      $value: data.total_price\/100,\n      total_discount: data.total_discount,\n      original_total_price: data.original_total_price\/100,\n      items: data.items\n    }\n    if (item !== 'undefined') {\n      cart = Object.assign(cart, item)\n    }\n    _learnq.push(['track', 'Added to Cart', cart])\n  }))\n} \n(function (ns, fetch) {\n  ns.fetch = function() {\n    const response = fetch.apply(this, arguments);\n    response.then(res => {\n      if (`${window.location.origin}\/cart\/add.js`\n      \t.includes(res.url)) {\n        \taddedToCart()\n      }\n    });\n    return response\n  }\n}(window, window.fetch))\n$(document).ajaxComplete(function(event, request, settings){\n  if(settings.url == \"\/cart\/add.js\"){\n      addedToCart()\n  }\n})<\/script>"
-      }
-    },
-    "wiremo-widget-section": {
-      "type": "apps",
-      "blocks": {
-        "wiremo-widget-section-block": {
-          "type": "shopify:\/\/apps\/wiremo-product-photo-reviews\/blocks\/wiremo-widget-section\/0328af5a-2ee3-47fb-9d51-288f6ebc78ac",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "wiremo-widget-section-block"
-      ],
-      "settings": {
       }
     }
   },
