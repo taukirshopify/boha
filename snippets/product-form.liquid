@@ -243,7 +243,7 @@
   {% comment %}Inject @pixelunion/shopify-variants-ui/variant-selection end{% endcomment %}
 
 
-  <div class="product-form--atc">
+  <div class="product-form--atc" id="navbur">
     <div class="product-form--atc-qty form-fields--qty" data-quantity-wrapper>
       <div class="form-field form-field--qty-select">
         <div class="form-field-select-wrapper">
@@ -291,9 +291,9 @@
       </div>
     </div>
 
-    <button
+    <button 
       class="
-        product-form--atc-button
+        product-form--atc-button mySelect
         {% if selected_variant and selected_variant.available == false %}
           disabled
         {% endif %}
@@ -336,3 +336,26 @@
     <div class="surface-pick-up" data-surface-pick-up></div>
   {% endif %}
 {% endform %}
+
+<script>
+document.addEventListener("DOMContentLoaded", function(event) {
+    // Your code to run since DOM is loaded and ready
+   console.log("this is caeed");
+window.onscroll = function() {myFunction()};
+   console.log("this is caeed");
+var navbar = document.getElementById("navbur");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+   let selector =   document.querySelectorAll("mySelect");
+    console.log(selector);
+  } else {
+     document.getElementsByClassName("mySelect").classList.remove("sticky");
+  }
+}
+
+
+  });
+
+</script>
