@@ -106,33 +106,23 @@
 {%- endcapture  -%}
 
 <article class="product--outer">
-  {%
-    render 'product-gallery',
-    product: product,
-    select_first_available_variant: select_first_available_variant,
-    aspect_ratio: gallery_aspect_ratio,
-    thumbnail_position: gallery_thumbnail_position,
-    image_crop: gallery_image_crop,
-    gallery_click_to_zoom: gallery_click_to_zoom,
-    gallery_hover_zoom: gallery_hover_zoom
-  %}
-
-  <div class="product-main">
+    <div class="product-main d-block-mobile d-none">
     <div class="product-details" data-product-details>
       {% for block in section.blocks %}
-        <div
-          class="
-            product-block
-            product-block--{{ block.type }}
-            product-block--{{ block.id }}
-            {% if forloop.first == true -%}
-              product-block--first
-            {% endif %}
-          "
-          {{ block.shopify_attributes }}
-        >
+
           {% case block.type %}
             {% when 'title' %}
+              <div
+                class="
+                  product-block
+                  product-block--{{ block.type }}
+                  product-block--{{ block.id }}
+                  {% if forloop.first == true -%}
+                    product-block--first
+                  {% endif %}
+                "
+                {{ block.shopify_attributes }}
+              > 
               {% if is_product_modal %}
                 <h2 class="product-title">
                   <a href="{{ product.url | within: collection }}">{{ product.title }}</a>
@@ -154,10 +144,152 @@
                   </h1>
                 {% endif %}
               {% endif %}
+            </div>
+            {% when 'vendor' %}
+              <div
+                class="
+                  product-block
+                  product-block--{{ block.type }}
+                  product-block--{{ block.id }}
+                  {% if forloop.first == true -%}
+                    product-block--first
+                  {% endif %}
+                "
+                {{ block.shopify_attributes }}
+              >
+              {% if product.vendor != blank or onboarding %}
+                <div class="product-vendor">
+                  {% unless onboarding %}
+                    {%- capture vendor_link -%}
+                      {{ product.vendor | link_to_vendor }}
+                    {%- endcapture -%}
+                    {{ 'product.general.by_vendor_html' | t: vendor_link: vendor_link }}
+                  {% else %}
+                    {{ 'onboarding.product.by_vendor' | t }}
+                  {% endunless %}
+                </div>
+              {% endif %}
+            </div>
+            
+
+            {% when 'rating' %}
+              <div
+                class="
+                  product-block
+                  product-block--{{ block.type }}
+                  product-block--{{ block.id }}
+                  {% if forloop.first == true -%}
+                    product-block--first
+                  {% endif %}
+                "
+                {{ block.shopify_attributes }}
+              >
+            <span 
+            class="stamped-product-reviews-badge stamped-main-badge" 
+            data-id="{{ product.id }}" 
+            data-product-sku="{{ product.handle }}" 
+            data-product-title="{{product.title}}" 
+            data-product-type="{{product.type}}" 
+            style="display: block;">
+            
+            </span>
+            <!-- Stamped - End Star Rating Badge -->
+          </div>
+            {% endcase %}
+      
+      {% endfor %}
+
+      {% if layout == 'layout--three-col' %}
+        <div class="product-form--regular" data-product-form-regular>
+          <div data-product-form-area>
+            {% if is_product_modal %}
+              <div data-product-quickshop-message class="product-message--container"></div>
+            {% endif %}
+
+            {% liquid
+              if product.template_suffix contains 'pre-order'
+                assign show_dynamic_checkout_button = false
+              endif
+
+              if product.template_suffix contains 'pre-order' and is_product_modal
+                assign enable_local_pickup = false
+              else
+                assign enable_local_pickup = section.settings.enable_local_pickup
+              endif
+            %}
+
+            {% unless onboarding %}
+              {%
+                render 'product-form',
+                product: product,
+                enable_local_pickup: enable_local_pickup,
+                show_dynamic_checkout_button: show_dynamic_checkout_button,
+                selected_variant: selected_variant,
+                is_product_modal: is_product_modal,
+              %}
+            {% endunless %}
+
+            {% if section.settings.social_share and is_product_modal == false %}
+              {{ share_buttons | strip_newlines }}
+            {% endif %}
+          </div>
+        </div>
+      {% endif %}
+    </div>
+  </div>
+  {%
+    render 'product-gallery',
+    product: product,
+    select_first_available_variant: select_first_available_variant,
+    aspect_ratio: gallery_aspect_ratio,
+    thumbnail_position: gallery_thumbnail_position,
+    image_crop: gallery_image_crop,
+    gallery_click_to_zoom: gallery_click_to_zoom,
+    gallery_hover_zoom: gallery_hover_zoom
+  %}
+
+  <div class="product-main">
+    <div class="product-details" data-product-details>
+      {% for block in section.blocks %}
+        <div
+          class="
+        extendedclass
+            product-block
+            product-block--{{ block.type }}
+            product-block--{{ block.id }}
+            {% if forloop.first == true -%}
+              product-block--first
+            {% endif %}
+          "
+          {{ block.shopify_attributes }}
+        >
+          {% case block.type %}
+            {% when 'title' %}
+              {% if is_product_modal %}
+                <h2 class="product-title d-none-mobile">
+                  <a href="{{ product.url | within: collection }}">{{ product.title }}</a>
+                </h2>
+              {% else %}
+                {% if template == 'index' %}
+                  <h2 class="product-title d-none-mobile">
+                {% else %}
+                  <h1 class="product-title d-none-mobile">
+                {% endif %}
+                  {% unless onboarding %}
+                    {{ product.title }}
+                  {% else %}
+                    {{ 'onboarding.product.title' | t }}
+                  {% endunless %}
+                {% if template == 'index' %}
+                  </h2>
+                {% else %}
+                  </h1>
+                {% endif %}
+              {% endif %}
 
             {% when 'vendor' %}
               {% if product.vendor != blank or onboarding %}
-                <div class="product-vendor">
+                <div class="product-vendor d-none-mobile">
                   {% unless onboarding %}
                     {%- capture vendor_link -%}
                       {{ product.vendor | link_to_vendor }}
@@ -189,20 +321,20 @@
 
             {% when 'rating' %}
              <!-- {% if product.metafields.reviews.rating.value != blank %}
-                <div class="product__rating rating">
+                <div class="product__rating rating d-none-mobile">
                   {%
                     render 'rating-stars',
                     value: product.metafields.reviews.rating.value.rating,
                     scale_max: product.metafields.reviews.rating.value.scale_max,
                   %}
 
-                  <p class="rating__text">
+                  <p class="rating__text d-none-mobile">
                     <span aria-hidden="true">
                       {{ product.metafields.reviews.rating.value }} / {{ product.metafields.reviews.rating.value.scale_max }}
                     </span>
                   </p>
 
-                  <p class="rating__count">
+                  <p class="rating__count d-none-mobile">
                     <span aria-hidden="true">
                       {{ product.metafields.reviews.rating_count }}
                       {% if product.metafields.reviews.rating_count > 1 %}
@@ -269,7 +401,7 @@
 
             {% when 'price' %}
               <div
-                class="product-pricing"
+                class="product-pricing "
                 aria-live="polite"
                 data-product-pricing
               >
@@ -548,3 +680,6 @@
     {{ readmore_split[1] }}
   </div>
 {% endif %}
+
+
+
