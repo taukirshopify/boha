@@ -145,31 +145,7 @@
                 {% endif %}
               {% endif %}
             </div>
-            {% when 'vendor' %}
-              <div
-                class="
-                  product-block
-                  product-block--{{ block.type }}
-                  product-block--{{ block.id }}
-                  {% if forloop.first == true -%}
-                    product-block--first
-                  {% endif %}
-                "
-                {{ block.shopify_attributes }}
-              >
-              {% if product.vendor != blank or onboarding %}
-                <div class="product-vendor">
-                  {% unless onboarding %}
-                    {%- capture vendor_link -%}
-                      {{ product.vendor | link_to_vendor }}
-                    {%- endcapture -%}
-                    {{ 'product.general.by_vendor_html' | t: vendor_link: vendor_link }}
-                  {% else %}
-                    {{ 'onboarding.product.by_vendor' | t }}
-                  {% endunless %}
-                </div>
-              {% endif %}
-            </div>
+            
             
 
             {% when 'rating' %}
