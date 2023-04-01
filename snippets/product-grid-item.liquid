@@ -9,8 +9,8 @@
     Render card in product compare style
 {% endcomment %}
 
-{% assign recently_viewed = recently_viewed | default: nil %}
-{% assign product_compare = product_compare | default: nil %}
+{% assign recently_viewed = recently_viewed | default: null %}
+{% assign product_compare = product_compare | default: null %}
 
 {% assign product_grid_show_second_image = settings.product_grid_show_second_image %}
 {% assign emphasize_price = settings.product_grid_emphasize_price %}
@@ -101,44 +101,44 @@
 {%- endcapture -%}
 
 {%- assign show_swatches = false -%}
-  {% assign initial_image = product.featured_media.preview_image.src %}
-  {%- if settings.swatches_enable and recently_viewed != true -%}
-    {% comment %} Check if product should show swatches {% endcomment %}
-    {%- for option in product.options_with_values -%}
-      {%- assign swatch_trigger = settings.swatches_swatch_trigger | strip | downcase -%}
-      {%- assign option_name = option.name | downcase -%}
-      {%- if option_name == swatch_trigger -%}
-        {%- assign show_swatches = true -%}
-        {%- assign swatch_values = option.values -%}
-        {%- assign swatch_values_count = option.values.size -%}
-        {%- assign swatch_option_key = 'option' | append: forloop.index -%}
-        {%- break -%}
-      {%- endif -%}
-    {%- endfor -%}
+{% assign initial_image = product.featured_media.preview_image.src %}
+{%- if settings.swatches_enable and recently_viewed != true -%}
+  {% comment %} Check if product should show swatches {% endcomment %}
+  {%- for option in product.options_with_values -%}
+    {%- assign swatch_trigger = settings.swatches_swatch_trigger | strip | downcase -%}
+    {%- assign option_name = option.name | downcase -%}
+    {%- if option_name == swatch_trigger -%}
+      {%- assign show_swatches = true -%}
+      {%- assign swatch_values = option.values -%}
+      {%- assign swatch_values_count = option.values.size -%}
+      {%- assign swatch_option_key = 'option' | append: forloop.index -%}
+      {%- break -%}
+    {%- endif -%}
+  {%- endfor -%}
 
-    {% if section.settings.filter_style == 'groups' and current_tags and show_swatches %}
-      {% comment %} We are filtered by tags, so check and see if it's filtering by swatch {% endcomment %}
-      {% for tag in current_tags %}
-        {% assign tag_group = tag | split: '_' | first | downcase %}
-        {% if tag_group == swatch_trigger %}
-          {% assign active_swatch_name = tag | split: '_' | last | downcase %}
+  {% if section.settings.filter_style == 'groups' and current_tags and show_swatches %}
+    {% comment %} We are filtered by tags, so check and see if it's filtering by swatch {% endcomment %}
+    {% for tag in current_tags %}
+      {% assign tag_group = tag | split: '_' | first | downcase %}
+      {% if tag_group == swatch_trigger %}
+        {% assign active_swatch_name = tag | split: '_' | last | downcase %}
 
-          {% comment %} Filter variants by swatch (for ex. where color == blue). Can't use | where due to case sensitivity {% endcomment %}
-          {% for variant in product.variants %}
-            {% assign option_value = variant[swatch_option_key] | downcase %}
-            {% if option_value == active_swatch_name %}
-              {% if variant.image %}
-                {% assign initial_image = variant.image %}
-              {% endif %}
-              {% break %}
+        {% comment %} Filter variants by swatch (for ex. where color == blue). Can't use | where due to case sensitivity {% endcomment %}
+        {% for variant in product.variants %}
+          {% assign option_value = variant[swatch_option_key] | downcase %}
+          {% if option_value == active_swatch_name %}
+            {% if variant.image %}
+              {% assign initial_image = variant.image %}
             {% endif %}
-          {% endfor %}
-          {% break %}
-        {% endif %}
-      {% endfor %}
-    {% endif %}
+            {% break %}
+          {% endif %}
+        {% endfor %}
+        {% break %}
+      {% endif %}
+    {% endfor %}
+  {% endif %}
 
-    {% capture product_item_swatches %}
+  {% capture product_item_swatches %}
       {%- if show_swatches -%}
         <div
           class="
@@ -222,11 +222,11 @@
         </div>
       {%- endif -%}
     {% endcapture %}
-  {%- endif -%}
+{%- endif -%}
 
 {% assign element = 'li' %}
 {% if product_compare %}
-    {% assign element = 'div' %}
+  {% assign element = 'div' %}
 {% endif %}
 
 <{{ element }}
@@ -329,8 +329,7 @@
             {% if initial_image %}
               {% if product_grid_show_second_image and product.media.size > 1 %}
                 {% assign second_image = product.media[1].preview_image.src %}
-                {%
-                  render 'rimg',
+                {% render 'rimg',
                   img: second_image,
                   size: '512x',
                   lazy: true,
@@ -338,9 +337,8 @@
                   canvas: true
                 %}
               {% endif %}
-              {%
-                render 'rimg',
-                img: initial_image
+              {% render 'rimg',
+                img: initial_image,
                 size: '512x',
                 lazy: true,
                 class: 'productitem--image-primary',
@@ -430,50 +428,55 @@
             </div>
           {% endif %}
 
-         <!-- {% if settings.product_ratings_star_display and product.metafields.reviews.rating.value != blank %}
-            <div class="product__rating rating">
-              {%
-                render 'rating-stars',
-                value: product.metafields.reviews.rating.value.rating,
-                scale_max: product.metafields.reviews.rating.value.scale_max,
-              %}
+          <!--
+            {% if settings.product_ratings_star_display and product.metafields.reviews.rating.value != blank %}
+              <div class="product__rating rating">
+                {%
+                  render 'rating-stars',
+                  value: product.metafields.reviews.rating.value.rating,
+                  scale_max: product.metafields.reviews.rating.value.scale_max,
+                %}
 
-              <p class="rating__text">
-                <span aria-hidden="true">
-                  {{ product.metafields.reviews.rating.value }} / {{ product.metafields.reviews.rating.value.scale_max }}
-                </span>
-              </p>
+                <p class="rating__text">
+                  <span aria-hidden="true">
+                    {{ product.metafields.reviews.rating.value }} / {{ product.metafields.reviews.rating.value.scale_max }}
+                  </span>
+                </p>
 
-              <p class="rating__count">
-                <span aria-hidden="true">
-                  {{ product.metafields.reviews.rating_count }}
-                  {% if product.metafields.reviews.rating_count > 1 %}
-                    {{ "general.accessibility.star_reviews_text" | t }}
-                  {% else %}
-                    {{ "general.accessibility.star_review_text" | t }}
-                  {% endif %}
-                </span>
-              </p>
-            </div>
-          {% endif %} -->
+                <p class="rating__count">
+                  <span aria-hidden="true">
+                    {{ product.metafields.reviews.rating_count }}
+                    {% if product.metafields.reviews.rating_count > 1 %}
+                      {{ "general.accessibility.star_reviews_text" | t }}
+                    {% else %}
+                      {{ "general.accessibility.star_review_text" | t }}
+                    {% endif %}
+                  </span>
+                </p>
+              </div>
+            {% endif %}
+          -->
 
-        <!-- Stamped - Begin Star Rating Badge -->
-            <span 
-            class="stamped-product-reviews-badge stamped-main-badge" 
-            data-id="{{ product.id }}" 
-            data-product-sku="{{ product.handle }}" 
-            data-product-title="{{product.title}}" 
-            data-product-type="{{product.type}}" 
-            style="display: block;">
-            
-            </span>
-            <!-- Stamped - End Star Rating Badge -->
-        
-<script> window.stamped_force_jquery = true; </script>
-    <script>
-setTimeout(function(){StampedFn.loadBadges()},2000);
-</script>
+          <!-- Stamped - Begin Star Rating Badge -->
+          <span
+            class="stamped-product-reviews-badge stamped-main-badge"
+            data-id="{{ product.id }}"
+            data-product-sku="{{ product.handle }}"
+            data-product-title="{{product.title}}"
+            data-product-type="{{product.type}}"
+            style="display: block;"
+          >
+          </span>
+          <!-- Stamped - End Star Rating Badge -->
 
+          <script>
+            window.stamped_force_jquery = true;
+          </script>
+          <script>
+            setTimeout(function () {
+              StampedFn.loadBadges();
+            }, 500);
+          </script>
         {% endunless %}
 
         {% if product_description %}

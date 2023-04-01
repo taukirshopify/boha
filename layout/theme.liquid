@@ -665,7 +665,9 @@
         window.stamped_force_jquery = true;
       </script>
       <script>
-        StampedFn.loadBadges();
+        setTimeout(function () {
+          StampedFn.loadBadges();
+        }, 200);
       </script>
     {% endif %}
 
