@@ -1,4 +1,5 @@
-et4i
 
 
 shopify theme dev --store=bo-ha
+
+shopify login --store bo-ha.myshopify.com
