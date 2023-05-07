@@ -174,7 +174,10 @@
       
 <script> window.stamped_force_jquery = true; </script>
     <script>
-setTimeout(function(){StampedFn.loadBadges()},500);
+{% comment %} 
+setTimeout(function(){StampedFn.loadBadges()},2000); {% endcomment %}
+
+
 </script>
 
             {% endcase %}
@@ -343,7 +346,9 @@ setTimeout(function(){StampedFn.loadBadges()},500);
 
 <script> window.stamped_force_jquery = true; </script>
     <script>
-setTimeout(function(){StampedFn.loadBadges()},500);
+{% comment %}       
+setTimeout(function(){StampedFn.loadBadges()},2000); {% endcomment %}
+
 </script>
 
             {% when 'key_details' %}
