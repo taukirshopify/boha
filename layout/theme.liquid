@@ -690,16 +690,11 @@
       </script>
     {% endif %}
 
-    <!-- Stamped - Begin script -->
-    <script
-      async
-      fetchpriority="high"
-      type="lazyload_int"
-      id="stamped-script-widget"
-      data-api-key="pubkey-8siwCJ1E63nWz9h2XPqrQQmy0ZnkrL"
-      data-src="https://cdn1.stamped.io/files/widget.min.js"
-    ></script>
-    <!-- Stamped - End script -->
+
+<script>function myInit(){ StampedFn.init({ apiKey: 'pubkey-8siwCJ1E63nWz9h2XPqrQQmy0ZnkrL', sId: '248912' }); }</script>
+<script async onload="myInit()" type="text/javascript" src="https://cdn1.stamped.io/files/widget.min.js"></script>
+
+
     {% if product %}
       <script type="lazyload_int">
         var _learnq = _learnq || [];
