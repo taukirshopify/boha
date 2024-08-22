@@ -1,1 +1,136 @@
-{"sections":{"main":{"type":"static-collection","blocks":{"5f191057-1e5d-4b56-a400-6ca641070bf9":{"type":"menu","settings":{"menu":"","show_prod_count":true,"menu_depth_range":1}},"86139fbe-5b76-4b9c-a002-80fbde876103":{"type":"menu","settings":{"menu":"wall-sconce-categories","show_prod_count":true,"menu_depth_range":1}}},"block_order":["5f191057-1e5d-4b56-a400-6ca641070bf9","86139fbe-5b76-4b9c-a002-80fbde876103"],"settings":{"show_collection_image":true,"products_per_page_range":24,"products_per_row":"4","sort_by":false,"grid_list":false,"default_view":"grid-view","enable_subcollection":true,"show_product_count":false,"thumbnail_image":"product-image","image_crop":"original"}},"static-recently-viewed":{"type":"static-recently-viewed","settings":{"enable_recently_viewed_products":true}},"03ee0cb0-a977-43a9-a055-52cf210655b8":{"type":"dynamic-menu-list","blocks":{"template--15270658539652__03ee0cb0-a977-43a9-a055-52cf210655b8-16739738642d96725a-0":{"type":"menu","settings":{"menu":"wall-sconce-categories","image":"shopify:\/\/shop_images\/Bildschirmfoto_2023-01-17_um_17.56.52.png"}},"template--15270658539652__03ee0cb0-a977-43a9-a055-52cf210655b8-16739738642d96725a-1":{"type":"menu","settings":{"menu":"pendant-light-categories","image":"shopify:\/\/shop_images\/Bildschirmfoto_2023-01-17_um_17.56.52.png"}},"template--15270658539652__03ee0cb0-a977-43a9-a055-52cf210655b8-16739738642d96725a-2":{"type":"menu","disabled":true,"settings":{"menu":""}},"template--15270658539652__03ee0cb0-a977-43a9-a055-52cf210655b8-16739738642d96725a-3":{"type":"menu","disabled":true,"settings":{"menu":""}},"template--15270658539652__03ee0cb0-a977-43a9-a055-52cf210655b8-16739738642d96725a-4":{"type":"menu","disabled":true,"settings":{"menu":""}},"template--15270658539652__03ee0cb0-a977-43a9-a055-52cf210655b8-16739738642d96725a-5":{"type":"menu","disabled":true,"settings":{"menu":""}}},"block_order":["template--15270658539652__03ee0cb0-a977-43a9-a055-52cf210655b8-16739738642d96725a-0","template--15270658539652__03ee0cb0-a977-43a9-a055-52cf210655b8-16739738642d96725a-1","template--15270658539652__03ee0cb0-a977-43a9-a055-52cf210655b8-16739738642d96725a-2","template--15270658539652__03ee0cb0-a977-43a9-a055-52cf210655b8-16739738642d96725a-3","template--15270658539652__03ee0cb0-a977-43a9-a055-52cf210655b8-16739738642d96725a-4","template--15270658539652__03ee0cb0-a977-43a9-a055-52cf210655b8-16739738642d96725a-5"],"settings":{"title":"Did not find what you are looking for?"}}},"order":["main","static-recently-viewed","03ee0cb0-a977-43a9-a055-52cf210655b8"]}
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "sections": {
+    "dynamic_shoppable_image_jJULmE": {
+      "type": "dynamic-shoppable-image",
+      "settings": {
+        "title": "",
+        "image": "shopify:\/\/shop_images\/Pink_and_Cream_Clean_and_Basic_CPG_Beauty_Video_Feed_Ad_1080_x_1920_px_1080_x_1080_px.png",
+        "image_width": "half",
+        "link_text": "View product",
+        "textbox_title": "Shop at Wenche Studios",
+        "textbox_subheading": "<p>Our Ahni is sold out. However, our sister company Wenche Studios still has some in stock.<\/p>",
+        "textbox_button_label": "Shop the Ahni",
+        "textbox_button_link": "https:\/\/wenche.co\/products\/ahni-modern-flushmount-led-ceiling-light-wall-light-decor-led-wall-lighting",
+        "textbox_button_style": "primary",
+        "textbox_text_alignment": "left",
+        "textbox_text_position": "left"
+      }
+    },
+    "main": {
+      "type": "static-collection",
+      "blocks": {
+        "5f191057-1e5d-4b56-a400-6ca641070bf9": {
+          "type": "menu",
+          "settings": {
+            "menu": "",
+            "show_prod_count": true,
+            "menu_depth_range": 1
+          }
+        },
+        "86139fbe-5b76-4b9c-a002-80fbde876103": {
+          "type": "menu",
+          "settings": {
+            "menu": "wall-sconce-categories",
+            "show_prod_count": true,
+            "menu_depth_range": 1
+          }
+        }
+      },
+      "block_order": [
+        "5f191057-1e5d-4b56-a400-6ca641070bf9",
+        "86139fbe-5b76-4b9c-a002-80fbde876103"
+      ],
+      "settings": {
+        "show_collection_image": true,
+        "products_per_page_range": 24,
+        "products_per_row": "4",
+        "sort_by": false,
+        "grid_list": false,
+        "default_view": "grid-view",
+        "enable_subcollection": true,
+        "show_product_count": false,
+        "thumbnail_image": "product-image",
+        "image_crop": "original"
+      }
+    },
+    "static-recently-viewed": {
+      "type": "static-recently-viewed",
+      "settings": {
+        "enable_recently_viewed_products": true
+      }
+    },
+    "03ee0cb0-a977-43a9-a055-52cf210655b8": {
+      "type": "dynamic-menu-list",
+      "blocks": {
+        "template--15270658539652__03ee0cb0-a977-43a9-a055-52cf210655b8-16739738642d96725a-0": {
+          "type": "menu",
+          "settings": {
+            "menu": "wall-sconce-categories",
+            "image": "shopify:\/\/shop_images\/Bildschirmfoto_2023-01-17_um_17.56.52.png"
+          }
+        },
+        "template--15270658539652__03ee0cb0-a977-43a9-a055-52cf210655b8-16739738642d96725a-1": {
+          "type": "menu",
+          "settings": {
+            "menu": "pendant-light-categories",
+            "image": "shopify:\/\/shop_images\/Bildschirmfoto_2023-01-17_um_17.56.52.png"
+          }
+        },
+        "template--15270658539652__03ee0cb0-a977-43a9-a055-52cf210655b8-16739738642d96725a-2": {
+          "type": "menu",
+          "disabled": true,
+          "settings": {
+            "menu": ""
+          }
+        },
+        "template--15270658539652__03ee0cb0-a977-43a9-a055-52cf210655b8-16739738642d96725a-3": {
+          "type": "menu",
+          "disabled": true,
+          "settings": {
+            "menu": ""
+          }
+        },
+        "template--15270658539652__03ee0cb0-a977-43a9-a055-52cf210655b8-16739738642d96725a-4": {
+          "type": "menu",
+          "disabled": true,
+          "settings": {
+            "menu": ""
+          }
+        },
+        "template--15270658539652__03ee0cb0-a977-43a9-a055-52cf210655b8-16739738642d96725a-5": {
+          "type": "menu",
+          "disabled": true,
+          "settings": {
+            "menu": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15270658539652__03ee0cb0-a977-43a9-a055-52cf210655b8-16739738642d96725a-0",
+        "template--15270658539652__03ee0cb0-a977-43a9-a055-52cf210655b8-16739738642d96725a-1",
+        "template--15270658539652__03ee0cb0-a977-43a9-a055-52cf210655b8-16739738642d96725a-2",
+        "template--15270658539652__03ee0cb0-a977-43a9-a055-52cf210655b8-16739738642d96725a-3",
+        "template--15270658539652__03ee0cb0-a977-43a9-a055-52cf210655b8-16739738642d96725a-4",
+        "template--15270658539652__03ee0cb0-a977-43a9-a055-52cf210655b8-16739738642d96725a-5"
+      ],
+      "settings": {
+        "title": "Did not find what you are looking for?"
+      }
+    }
+  },
+  "order": [
+    "dynamic_shoppable_image_jJULmE",
+    "main",
+    "static-recently-viewed",
+    "03ee0cb0-a977-43a9-a055-52cf210655b8"
+  ]
+}
