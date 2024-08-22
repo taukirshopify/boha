@@ -11,6 +11,7 @@
   "sections": {
     "dynamic_shoppable_image_jJULmE": {
       "type": "dynamic-shoppable-image",
+      "disabled": true,
       "settings": {
         "title": "",
         "image": "shopify:\/\/shop_images\/Pink_and_Cream_Clean_and_Basic_CPG_Beauty_Video_Feed_Ad_1080_x_1920_px_1080_x_1080_px.png",
