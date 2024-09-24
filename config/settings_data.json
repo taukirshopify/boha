@@ -69,20 +69,20 @@
     "product_grid_image_style": "natural",
     "product_grid_image_crop": false,
     "social_email": "support@bo-ha.com",
-    "social_facebook": "https:\/\/facebook.com\/Bohahomedecor",
-    "social_instagram": "https:\/\/instagram.com\/bohastudios",
+    "social_facebook": "https://facebook.com/Bohahomedecor",
+    "social_instagram": "https://instagram.com/bohastudios",
     "social_linkedin": "",
-    "social_pinterest": "https:\/\/www.pinterest.com\/boha_decor\/",
+    "social_pinterest": "https://www.pinterest.com/boha_decor/",
     "social_tumblr": "",
     "social_twitter": "",
     "social_vimeo": "",
     "social_youtube": "",
-    "favicon": "shopify:\/\/shop_images\/Kopie_von_Kopie_von_Bo-ha_1_1.png",
+    "favicon": "shopify://shop_images/Kopie_von_Kopie_von_Bo-ha_1_1.png",
     "enable_checkout_lock_icon": false,
-    "continue_shopping_url": "shopify:\/\/collections\/all",
+    "continue_shopping_url": "shopify://collections/all",
     "continue_url_cart": true,
     "continue_url_404": true,
-    "checkout_logo_image": "shopify:\/\/shop_images\/Kopie_von_Kopie_von_Kopie_von_Kopie_von_Kopie_von_Kopie_von_Bo-ha_256x256_crop_center_f341900d-e379-4aa3-b6a1-e58d3a4135bb.png",
+    "checkout_logo_image": "shopify://shop_images/Kopie_von_Kopie_von_Kopie_von_Kopie_von_Kopie_von_Kopie_von_Bo-ha_256x256_crop_center_f341900d-e379-4aa3-b6a1-e58d3a4135bb.png",
     "checkout_logo_position": "left",
     "checkout_logo_size": "medium",
     "checkout_body_background_image": "",
@@ -190,15 +190,15 @@
         "type": "pxs-image-with-text-overlay",
         "settings": {
           "section_height": "medium",
-          "image": "shopify:\/\/shop_images\/Design_ohne_Titel_12_1.png",
+          "image": "shopify://shop_images/Design_ohne_Titel_12_1.png",
           "position": "center center",
           "title": "Upgrade Your Space",
-          "text": "<p>Browse our Best-Seller<\/p>",
+          "text": "<p>Browse our Best-Seller</p>",
           "content_position": "center-center",
           "color": "#ffffff",
           "overlay_background": "#000000",
           "overlay_opacity": 0,
-          "link": "shopify:\/\/collections\/best-seller",
+          "link": "shopify://collections/best-seller",
           "button_text": "Shop Now"
         }
       },
@@ -294,11 +294,11 @@
           "1493143038057-0": {
             "type": "promotion",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Bildschirmfoto_2022-09-05_um_03.55.48.png",
+              "image": "shopify://shop_images/Bildschirmfoto_2022-09-05_um_03.55.48.png",
               "title": "Bring the ambience indoors",
               "text": "Turn your house into a gorgeous model home for less than you ever dreamed possible!",
               "color": "#ffffff",
-              "block_link": "shopify:\/\/collections\/best-seller",
+              "block_link": "shopify://collections/best-seller",
               "button_text": "Shop Now",
               "button_style": "secondary",
               "show_overlay": true,
@@ -309,11 +309,11 @@
           "1493143038057-1": {
             "type": "promotion",
             "settings": {
-              "image": "shopify:\/\/shop_images\/modern-glass-pendant-light-hanging-lamp_main-2_1.jpg",
+              "image": "shopify://shop_images/modern-glass-pendant-light-hanging-lamp_main-2_1.jpg",
               "title": "Upgrade your home",
               "text": "Browse our beautiful designed Glass Pendant Lights",
               "color": "#ffffff",
-              "block_link": "shopify:\/\/collections\/lighting",
+              "block_link": "shopify://collections/lighting",
               "button_text": "Browse",
               "button_style": "primary",
               "show_overlay": true,
@@ -340,22 +340,22 @@
           "1621446081039bbf4b-0": {
             "type": "logo",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Kopie_von_PHONE_SUPPORT_1-_310_-734-4907_1_1.png",
-              "link": "https:\/\/boha.co\/pages\/contact-us"
+              "image": "shopify://shop_images/Kopie_von_PHONE_SUPPORT_1-_310_-734-4907_1_1.png",
+              "link": "https://boha.co/pages/contact-us"
             }
           },
           "1621446081039bbf4b-1": {
             "type": "logo",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Kopie_von_PHONE_SUPPORT_1-_310_-734-4907_2_1.png",
-              "link": "https:\/\/boha.co\/pages\/shipping"
+              "image": "shopify://shop_images/Kopie_von_PHONE_SUPPORT_1-_310_-734-4907_2_1.png",
+              "link": "https://boha.co/pages/shipping"
             }
           },
           "1621446081039bbf4b-2": {
             "type": "logo",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Kopie_von_PHONE_SUPPORT_1-_310_-734-4907_3_1.png",
-              "link": "https:\/\/boha.co\/pages\/returns-refunds"
+              "image": "shopify://shop_images/Kopie_von_PHONE_SUPPORT_1-_310_-734-4907_3_1.png",
+              "link": "https://boha.co/pages/returns-refunds"
             }
           }
         },
@@ -421,7 +421,7 @@
         "settings": {
           "sticky_header": true,
           "full_width_header": false,
-          "logo": "shopify:\/\/shop_images\/Kopie_von_Kopie_von_Kopie_von_Kopie_von_Kopie_von_Kopie_von_Bo-ha_256x256_crop_center_f341900d-e379-4aa3-b6a1-e58d3a4135bb.png",
+          "logo": "shopify://shop_images/Kopie_von_Kopie_von_Kopie_von_Kopie_von_Kopie_von_Kopie_von_Bo-ha_256x256_crop_center_f341900d-e379-4aa3-b6a1-e58d3a4135bb.png",
           "logo_height": 40,
           "logo_width": 150,
           "filter_search_by": "disabled",
@@ -433,8 +433,8 @@
           "menu": "main-menu",
           "secondary_menu": "",
           "small_promo_heading": "Free Shipping",
-          "small_promo_text": "<p>on all orders<\/p>",
-          "small_promo_text_mobile": "<p>on all orders<\/p>",
+          "small_promo_text": "<p>on all orders</p>",
+          "small_promo_text_mobile": "<p>on all orders</p>",
           "small_promo_link": "",
           "small_promo_icon": "icon-delivery",
           "cart_icon": "icon-cart"
@@ -448,7 +448,7 @@
             "settings": {
               "icon": "icon-delivery",
               "title": "Free Shipping",
-              "text": "<p>When you spend $100+<\/p>",
+              "text": "<p>When you spend $100+</p>",
               "link": ""
             }
           },
@@ -457,7 +457,7 @@
             "settings": {
               "icon": "icon-cell-phone",
               "title": "Give Us A Call",
-              "text": "<p>+1 (201) 555-5555<\/p>",
+              "text": "<p>+1 (201) 555-5555</p>",
               "link": ""
             }
           },
@@ -466,7 +466,7 @@
             "settings": {
               "icon": "icon-chat-alternate",
               "title": "Chat With Us",
-              "text": "<p>We offer 24-hour chat support<\/p>",
+              "text": "<p>We offer 24-hour chat support</p>",
               "link": ""
             }
           },
@@ -475,7 +475,7 @@
             "settings": {
               "icon": "icon-pin",
               "title": "Locations",
-              "text": "<p>Find a store near you<\/p>",
+              "text": "<p>Find a store near you</p>",
               "link": ""
             }
           }
@@ -522,9 +522,9 @@
         "settings": {
           "show_announcement": true,
           "homepage_announcement": false,
-          "announcement_text": "30 DAY MONEY BACK GUARANTEE | FREE SHIPPING | 24\/7 CUSTOMER SERVICE",
-          "announcement_text_mobile": "30 DAY MONEY BACK GUARANTEE | FREE SHIPPING | 24\/7 CUSTOMER SERVICE",
-          "announcement_link": "https:\/\/bo-ha.com\/collections\/valentines-day-sale",
+          "announcement_text": "30 DAY MONEY BACK GUARANTEE | FREE SHIPPING | 24/7 CUSTOMER SERVICE",
+          "announcement_text_mobile": "30 DAY MONEY BACK GUARANTEE | FREE SHIPPING | 24/7 CUSTOMER SERVICE",
+          "announcement_link": "https://bo-ha.com/collections/valentines-day-sale",
           "announcement_color": "#ffffff",
           "announcement_background": "#000000"
         }
@@ -536,28 +536,28 @@
             "type": "collection",
             "settings": {
               "collection": "pendant-lights",
-              "image": "shopify:\/\/shop_images\/product-image-695490157_grande_325b83c9-c3e7-4d96-bf63-fd9ffbca754f_600x600_3_1.jpg"
+              "image": "shopify://shop_images/product-image-695490157_grande_325b83c9-c3e7-4d96-bf63-fd9ffbca754f_600x600_3_1.jpg"
             }
           },
           "1597938063314-1": {
             "type": "collection",
             "settings": {
               "collection": "planter-lights",
-              "image": "shopify:\/\/shop_images\/product-image-1537193720.jpg"
+              "image": "shopify://shop_images/product-image-1537193720.jpg"
             }
           },
           "1597938063314-2": {
             "type": "collection",
             "settings": {
               "collection": "wall-sconces",
-              "image": "shopify:\/\/shop_images\/Untitled_design_84_1.png"
+              "image": "shopify://shop_images/Untitled_design_84_1.png"
             }
           },
           "1597938063314-3": {
             "type": "collection",
             "settings": {
               "collection": "shop-all",
-              "image": "shopify:\/\/shop_images\/product-image-1414778810_1024x1024_2x_eccd33a1-31dd-435a-97e7-ffbcb6bf6bcf_1.jpg"
+              "image": "shopify://shop_images/product-image-1414778810_1024x1024_2x_eccd33a1-31dd-435a-97e7-ffbcb6bf6bcf_1.jpg"
             }
           }
         },
@@ -601,7 +601,7 @@
             "type": "rich_text",
             "settings": {
               "title": "Contact",
-              "text": "<p>Monday - Sunday<\/p><p>+1 310 734 4907<\/p><p>06:00am - 07:00pm PST<\/p><p>Don&#x27;t hesitate to give us a call!<\/p><p>support@bo-ha.com<\/p>"
+              "text": "<p>Monday - Sunday</p><p>+1 323 207 6588</p><p>06:00am - 07:00pm PST</p><p>Don't hesitate to give us a call!</p><p>support@bo-ha.com</p>"
             }
           }
         },
@@ -633,14 +633,14 @@
         "disabled": true,
         "settings": {
           "title": "SIGN UP",
-          "custom_html": "<div class=\"“klaviyo-form-SWNFeT”\"><\/div>"
+          "custom_html": "<div class=\"“klaviyo-form-SWNFeT”\"></div>"
         }
       },
       "1662493315bc09345f": {
         "type": "dynamic-html",
         "settings": {
           "title": "",
-          "custom_html": "<div class=\"klaviyo-form-QUmtdY\"><\/div>"
+          "custom_html": "<div class=\"klaviyo-form-QUmtdY\"></div>"
         }
       },
       "static-utility-bar": {
@@ -675,13 +675,13 @@
     ],
     "blocks": {
       "855628211100114053": {
-        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
+        "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": false,
         "settings": {
         }
       },
       "11973264549492426220": {
-        "type": "shopify:\/\/apps\/currency-converter-plus\/blocks\/app-embed-block\/a56d6bd1-e9df-4a4a-b98e-e9bb5c43a042",
+        "type": "shopify://apps/currency-converter-plus/blocks/app-embed-block/a56d6bd1-e9df-4a4a-b98e-e9bb5c43a042",
         "disabled": false,
         "settings": {
         }
@@ -749,7 +749,7 @@
       "color_links": "#0076de",
       "color_product_sale_accent": "#de0101",
       "type_heading": "arimo_n7",
-      "continue_shopping_url": "shopify:\/\/collections\/all",
+      "continue_shopping_url": "shopify://collections/all",
       "color_input_text": "#4d4d4d",
       "show_dcb": false,
       "color_product_review_star": "#4c4c4c",
@@ -791,7 +791,7 @@
           "settings": {
             "section_height": "medium",
             "title": "Our Location",
-            "content": "<p>1221 Broad St, Victoria, BC<\/p>",
+            "content": "<p>1221 Broad St, Victoria, BC</p>",
             "text_alignment": "center",
             "layout": "overlay-bottom-left",
             "layout_mobile": "above",
@@ -1052,7 +1052,7 @@
                 "icon": "icon-cell-phone",
                 "image": "",
                 "title": "Give Us A Call",
-                "text": "<p>+1 (250) 555-5555<\/p>",
+                "text": "<p>+1 (250) 555-5555</p>",
                 "link": ""
               }
             },
@@ -1062,7 +1062,7 @@
                 "icon": "icon-chat-alternate",
                 "image": "",
                 "title": "Chat With Us",
-                "text": "<p>We offer 24-hour chat support<\/p>",
+                "text": "<p>We offer 24-hour chat support</p>",
                 "link": ""
               }
             },
@@ -1072,7 +1072,7 @@
                 "icon": "icon-delivery",
                 "image": "",
                 "title": "Free Shipping",
-                "text": "<p>When you spend $100+<\/p>",
+                "text": "<p>When you spend $100+</p>",
                 "link": ""
               }
             },
@@ -1082,7 +1082,7 @@
                 "icon": "icon-store",
                 "image": "",
                 "title": "Locations",
-                "text": "<p>Find a store near you<\/p>",
+                "text": "<p>Find a store near you</p>",
                 "link": ""
               }
             }
@@ -1299,7 +1299,7 @@
       "overlay_opacity": 50,
       "layout_max_width": 1400,
       "swatches_custom_colors": "",
-      "continue_shopping_url": "shopify:\/\/collections\/all",
+      "continue_shopping_url": "shopify://collections/all",
       "product_ratings_reviews": true,
       "product_enable_recently_viewed_products": true,
       "product_slideshow_style": "natural",
@@ -1565,8 +1565,8 @@
             "quick_links": "shop-by-piece",
             "menu": "main-menu",
             "small_promo_heading": "Free Shipping",
-            "small_promo_text": "<p>on all orders over $75<\/p>",
-            "small_promo_text_mobile": "<p>on all orders over $75<\/p>",
+            "small_promo_text": "<p>on all orders over $75</p>",
+            "small_promo_text_mobile": "<p>on all orders over $75</p>",
             "small_promo_icon": "icon-delivery",
             "image": ""
           }
@@ -1580,7 +1580,7 @@
                 "icon": "icon-cell-phone",
                 "image": "",
                 "title": "Give Us A Call",
-                "text": "<p>+1 (201) 555-5555<\/p>",
+                "text": "<p>+1 (201) 555-5555</p>",
                 "link": ""
               }
             },
@@ -1590,7 +1590,7 @@
                 "icon": "icon-chat-alternate",
                 "image": "",
                 "title": "Chat With Us",
-                "text": "<p>We offer 24-hour chat support<\/p>",
+                "text": "<p>We offer 24-hour chat support</p>",
                 "link": ""
               }
             },
@@ -1600,7 +1600,7 @@
                 "icon": "icon-pin",
                 "image": "",
                 "title": "Locations",
-                "text": "<p>Find a store near you<\/p>",
+                "text": "<p>Find a store near you</p>",
                 "link": ""
               }
             },
@@ -1610,7 +1610,7 @@
                 "icon": "icon-delivery",
                 "image": "",
                 "title": "Free Shipping",
-                "text": "<p>When you spend $100+<\/p>",
+                "text": "<p>When you spend $100+</p>",
                 "link": ""
               }
             }
@@ -1831,7 +1831,7 @@
       "color_links": "#1e8570",
       "color_product_sale_accent": "#de0101",
       "type_heading": "cabin_n7",
-      "continue_shopping_url": "shopify:\/\/collections\/all",
+      "continue_shopping_url": "shopify://collections/all",
       "color_input_text": "#4d4d4d",
       "show_dcb": false,
       "color_product_review_star": "#ffab41",
@@ -1980,7 +1980,7 @@
           "settings": {
             "title": "Video",
             "show_caption": false,
-            "caption": "<p>A short description of the video.<\/p>",
+            "caption": "<p>A short description of the video.</p>",
             "autoplay": false,
             "aspect_ratio": "16-9",
             "position": "center-center",
@@ -2033,7 +2033,7 @@
                 "icon": "icon-cell-phone",
                 "image": "",
                 "title": "Call Us Anytime",
-                "text": "<p>+1 (250) 555-5555<\/p>"
+                "text": "<p>+1 (250) 555-5555</p>"
               }
             },
             "static-highlights-banners-2": {
@@ -2042,7 +2042,7 @@
                 "icon": "icon-people-alternate",
                 "image": "",
                 "title": "Chat With Us",
-                "text": "<p>We offer 24-hour chat support<\/p>"
+                "text": "<p>We offer 24-hour chat support</p>"
               }
             },
             "static-highlights-banners-3": {
@@ -2051,7 +2051,7 @@
                 "icon": "icon-gift-card",
                 "image": "",
                 "title": "Gift Cards",
-                "text": "<p>For your loved one, in any amount<\/p>"
+                "text": "<p>For your loved one, in any amount</p>"
               }
             },
             "static-highlights-banners-0": {
@@ -2060,7 +2060,7 @@
                 "icon": "icon-delivery",
                 "image": "",
                 "title": "Free Shipping",
-                "text": "<p>When you spend $50+<\/p>"
+                "text": "<p>When you spend $50+</p>"
               }
             }
           },

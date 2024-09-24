@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "dynamic_promo_mosaic": {
@@ -6,11 +15,11 @@
         "promotion-1": {
           "type": "promotion",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Kein_Titel_1080_x_540_px_1.png",
+            "image": "shopify://shop_images/Kein_Titel_1080_x_540_px_1.png",
             "title": "Bring the ambience indoors",
             "text": "Turn your house into a gorgeous model home for less than you ever dreamed possible",
             "color": "#ffffff",
-            "block_link": "shopify:\/\/collections\/best-seller",
+            "block_link": "shopify://collections/best-seller",
             "button_text": "SHOP NOW",
             "button_style": "primary",
             "show_overlay": false,
@@ -21,11 +30,11 @@
         "promotion-2": {
           "type": "promotion",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Hd70cfc6cb73f4e6ca6ef40cd237b5668q.jpg_960x960_9d0f0201-a025-43b9-996d-2d2586721171_1.png",
+            "image": "shopify://shop_images/Hd70cfc6cb73f4e6ca6ef40cd237b5668q.jpg_960x960_9d0f0201-a025-43b9-996d-2d2586721171_1.png",
             "title": "Upgrade your home",
             "text": "Browse our beautiful designed Best-Sellers",
             "color": "#ffffff",
-            "block_link": "shopify:\/\/collections\/best-seller",
+            "block_link": "shopify://collections/best-seller",
             "button_text": "SHOP NOW",
             "button_style": "secondary",
             "show_overlay": true,
@@ -54,8 +63,8 @@
           "settings": {
             "icon": "icon-cell-phone",
             "title": "Give Us A Call",
-            "text": "<p>+1 (310) 734 4907<\/p>",
-            "link": "shopify:\/\/pages\/contact-us"
+            "text": "<p>+1 (323) 207 6588</p>",
+            "link": "shopify://pages/contact-us"
           }
         },
         "highlight-1": {
@@ -63,8 +72,8 @@
           "settings": {
             "icon": "icon-delivery",
             "title": "Free Worldwide Shipping",
-            "text": "<p>On any order<\/p>",
-            "link": "shopify:\/\/pages\/shipping"
+            "text": "<p>On any order</p>",
+            "link": "shopify://pages/shipping"
           }
         },
         "highlight-3": {
@@ -72,17 +81,17 @@
           "settings": {
             "icon": "icon-smile",
             "title": "Easy Returns",
-            "text": "<p>No questions asked<\/p>",
-            "link": "shopify:\/\/pages\/returns-refunds"
+            "text": "<p>No questions asked</p>",
+            "link": "shopify://pages/returns-refunds"
           }
         },
         "highlight-4": {
           "type": "highlight",
           "settings": {
             "icon": "icon-email",
-            "title": "24 \/ 7 Support",
-            "text": "<p>support@bo-ha.com<\/p>",
-            "link": "shopify:\/\/pages\/contact-us"
+            "title": "24 / 7 Support",
+            "text": "<p>support@bo-ha.com</p>",
+            "link": "shopify://pages/contact-us"
           }
         }
       },
@@ -133,15 +142,15 @@
       "type": "pxs-image-with-text-overlay",
       "settings": {
         "section_height": "medium",
-        "image": "shopify:\/\/shop_images\/Design_ohne_Titel_12_1.png",
+        "image": "shopify://shop_images/Design_ohne_Titel_12_1.png",
         "position": "center center",
         "title": "Upgrade Your Space",
-        "text": "<p>Browse our Best-Sellers<\/p>",
+        "text": "<p>Browse our Best-Sellers</p>",
         "content_position": "center-center",
         "color": "#ffffff",
         "overlay_background": "#000000",
         "overlay_opacity": 10,
-        "link": "shopify:\/\/collections\/best-seller",
+        "link": "shopify://collections/best-seller",
         "button_text": "Shop Now"
       }
     },
@@ -152,7 +161,7 @@
           "type": "collection",
           "settings": {
             "collection": "best-seller",
-            "image": "shopify:\/\/shop_images\/Hd70cfc6cb73f4e6ca6ef40cd237b5668q.jpg_960x960_9d0f0201-a025-43b9-996d-2d2586721171.png",
+            "image": "shopify://shop_images/Hd70cfc6cb73f4e6ca6ef40cd237b5668q.jpg_960x960_9d0f0201-a025-43b9-996d-2d2586721171.png",
             "title": ""
           }
         },
@@ -160,7 +169,7 @@
           "type": "collection",
           "settings": {
             "collection": "pendant-lights",
-            "image": "shopify:\/\/shop_images\/Mia---Nordic-Pendant-Light-BO-HA-1668078822.jpg",
+            "image": "shopify://shop_images/Mia---Nordic-Pendant-Light-BO-HA-1668078822.jpg",
             "title": ""
           }
         },
@@ -168,7 +177,7 @@
           "type": "collection",
           "settings": {
             "collection": "wall-sconces",
-            "image": "shopify:\/\/shop_images\/Eivor---Retro-Wall-Lamp-BO-HA-1668080996.jpg",
+            "image": "shopify://shop_images/Eivor---Retro-Wall-Lamp-BO-HA-1668080996.jpg",
             "title": ""
           }
         },
@@ -176,7 +185,7 @@
           "type": "collection",
           "settings": {
             "collection": "faucets",
-            "image": "shopify:\/\/shop_images\/1_a1653202-0649-4ae1-a8cc-c727a6bcb70c.png",
+            "image": "shopify://shop_images/1_a1653202-0649-4ae1-a8cc-c727a6bcb70c.png",
             "title": ""
           }
         }
@@ -246,7 +255,7 @@
       "type": "apps",
       "blocks": {
         "c373528a-c4fb-44aa-a012-83d759e7ba11": {
-          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/form-embed-block/2632fe16-c075-4321-a88b-50b567f42507",
           "settings": {
             "formId": "V5FVuw"
           }
