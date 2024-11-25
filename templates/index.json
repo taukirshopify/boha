@@ -15,16 +15,16 @@
         "promotion-1": {
           "type": "promotion",
           "settings": {
-            "image": "shopify://shop_images/Kein_Titel_1080_x_540_px_1.png",
+            "image": "shopify://shop_images/3_a0b57553-933c-4f93-9fd3-e889ba70a18c.png",
             "title": "Bring the ambience indoors",
             "text": "Turn your house into a gorgeous model home for less than you ever dreamed possible",
             "color": "#ffffff",
             "block_link": "shopify://collections/best-seller",
             "button_text": "SHOP NOW",
             "button_style": "primary",
-            "show_overlay": false,
-            "background": "rgba(0,0,0,0)",
-            "opacity": 50
+            "show_overlay": true,
+            "background": "#000000",
+            "opacity": 24
           }
         },
         "promotion-2": {
@@ -221,13 +221,11 @@
       "blocks": {
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "price": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "view-product-link": {
           "type": "view-product-link",
