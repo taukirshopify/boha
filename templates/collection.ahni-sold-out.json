@@ -14,6 +14,7 @@
       "blocks": {
         "5f191057-1e5d-4b56-a400-6ca641070bf9": {
           "type": "menu",
+          "disabled": true,
           "settings": {
             "menu": "",
             "show_prod_count": true,
@@ -129,12 +130,73 @@
       "settings": {
         "title": "Did not find what you are looking for?"
       }
+    },
+    "dynamic_collection_list_yTpNe7": {
+      "type": "dynamic-collection-list",
+      "blocks": {
+        "collection_Gf9Rt9": {
+          "type": "collection",
+          "settings": {
+            "collection": "wall-lights",
+            "image": "shopify://shop_images/Bildschirmfoto_2024-11-25_um_12.12.48.png",
+            "title": ""
+          }
+        },
+        "collection_pLry7P": {
+          "type": "collection",
+          "settings": {
+            "collection": "pendant-lights",
+            "image": "shopify://shop_images/Bildschirmfoto_2024-11-25_um_12.14.14.png",
+            "title": ""
+          }
+        },
+        "collection_Lde4tq": {
+          "type": "collection",
+          "settings": {
+            "collection": "table-lamp",
+            "image": "shopify://shop_images/Bildschirmfoto_2024-11-25_um_12.15.46.png",
+            "title": ""
+          }
+        },
+        "collection_YcgYRk": {
+          "type": "collection",
+          "settings": {
+            "collection": "faucets",
+            "title": ""
+          }
+        },
+        "collection_axAnzg": {
+          "type": "collection",
+          "settings": {
+            "collection": "shower",
+            "image": "shopify://shop_images/brushed-gold-thermostatic-shower-set-fau_main-0_1.png",
+            "title": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_Gf9Rt9",
+        "collection_pLry7P",
+        "collection_Lde4tq",
+        "collection_YcgYRk",
+        "collection_axAnzg"
+      ],
+      "settings": {
+        "title": "Browse through our Collections",
+        "thumbnail_columns_desktop": 5,
+        "thumbnail_columns_mobile": 2,
+        "image-crop": "original",
+        "cta_label": "View All",
+        "cta_link": "",
+        "cta_button_style": "primary"
+      }
     }
   },
   "order": [
     "main",
     "dynamic_shoppable_image_jJULmE",
     "static-recently-viewed",
-    "03ee0cb0-a977-43a9-a055-52cf210655b8"
+    "03ee0cb0-a977-43a9-a055-52cf210655b8",
+    "dynamic_collection_list_yTpNe7"
   ]
 }
