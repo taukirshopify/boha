@@ -22,6 +22,7 @@
         },
         "86139fbe-5b76-4b9c-a002-80fbde876103": {
           "type": "menu",
+          "disabled": true,
           "settings": {
             "menu": "wall-sconce-categories",
             "show_prod_count": true,
@@ -74,6 +75,7 @@
       "blocks": {
         "template--15270658539652__03ee0cb0-a977-43a9-a055-52cf210655b8-16739738642d96725a-0": {
           "type": "menu",
+          "disabled": true,
           "settings": {
             "menu": "wall-sconce-categories",
             "image": "shopify://shop_images/Bildschirmfoto_2023-01-17_um_17.56.52.png"
@@ -81,6 +83,7 @@
         },
         "template--15270658539652__03ee0cb0-a977-43a9-a055-52cf210655b8-16739738642d96725a-1": {
           "type": "menu",
+          "disabled": true,
           "settings": {
             "menu": "pendant-light-categories",
             "image": "shopify://shop_images/Bildschirmfoto_2023-01-17_um_17.56.52.png"
