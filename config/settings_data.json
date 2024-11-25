@@ -183,8 +183,7 @@
       },
       "static-product-reviews": {
         "type": "static-product-reviews",
-        "settings": {
-        }
+        "settings": {}
       },
       "1597936024214": {
         "type": "pxs-image-with-text-overlay",
@@ -522,8 +521,8 @@
         "settings": {
           "show_announcement": true,
           "homepage_announcement": false,
-          "announcement_text": "30 DAY MONEY BACK GUARANTEE | FREE SHIPPING | 24/7 CUSTOMER SERVICE",
-          "announcement_text_mobile": "30 DAY MONEY BACK GUARANTEE | FREE SHIPPING | 24/7 CUSTOMER SERVICE",
+          "announcement_text": "BLACK FRIDAY WEEK HAS STARTED | CLEARANCE SALE | 15% OFF WITH CODE: EARLY",
+          "announcement_text_mobile": "BLACK FRIDAY WEEK HAS STARTED | CLEARANCE SALE | 15% OFF WITH CODE: EARLY",
           "announcement_link": "shopify://collections/best-seller",
           "announcement_color": "#ffffff",
           "announcement_background": "#000000"
@@ -594,8 +593,7 @@
           },
           "1599144040379": {
             "type": "social_accounts",
-            "settings": {
-            }
+            "settings": {}
           },
           "1599047163046": {
             "type": "rich_text",
@@ -677,14 +675,12 @@
       "855628211100114053": {
         "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "11973264549492426220": {
         "type": "shopify://apps/currency-converter-plus/blocks/app-embed-block/a56d6bd1-e9df-4a4a-b98e-e9bb5c43a042",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       }
     }
   },
@@ -827,13 +823,11 @@
         },
         "1521049818431": {
           "type": "dynamic-featured-product",
-          "settings": {
-          }
+          "settings": {}
         },
         "static-product-reviews": {
           "type": "static-product-reviews",
-          "settings": {
-          }
+          "settings": {}
         },
         "static-recently-viewed": {
           "type": "static-recently-viewed",
@@ -862,23 +856,19 @@
           "blocks": {
             "1497918122928-1": {
               "type": "collection",
-              "settings": {
-              }
+              "settings": {}
             },
             "1497918122928-2": {
               "type": "collection",
-              "settings": {
-              }
+              "settings": {}
             },
             "1497918122928-3": {
               "type": "collection",
-              "settings": {
-              }
+              "settings": {}
             },
             "1497918666626": {
               "type": "collection",
-              "settings": {
-              }
+              "settings": {}
             }
           },
           "block_order": [
@@ -1112,31 +1102,26 @@
         },
         "static-product": {
           "type": "static-product",
-          "settings": {
-          }
+          "settings": {}
         },
         "static-footer": {
           "type": "static-footer",
           "blocks": {
             "1497909194722": {
               "type": "menu",
-              "settings": {
-              }
+              "settings": {}
             },
             "1497906879041": {
               "type": "menu",
-              "settings": {
-              }
+              "settings": {}
             },
             "1497906643880": {
               "type": "social_accounts",
-              "settings": {
-              }
+              "settings": {}
             },
             "1497906897044": {
               "type": "menu",
-              "settings": {
-              }
+              "settings": {}
             }
           },
           "block_order": [
@@ -1336,8 +1321,7 @@
         },
         "static-product-reviews": {
           "type": "static-product-reviews",
-          "settings": {
-          }
+          "settings": {}
         },
         "1493163784784": {
           "type": "dynamic-featured-collection",
@@ -1539,13 +1523,11 @@
           "blocks": {
             "1517255946962": {
               "type": "meganav_images",
-              "settings": {
-              }
+              "settings": {}
             },
             "1572476394007": {
               "type": "multi_column_menu",
-              "settings": {
-              }
+              "settings": {}
             }
           },
           "block_order": [
@@ -1630,8 +1612,7 @@
         },
         "1520634789686": {
           "type": "dynamic-featured-product",
-          "settings": {
-          }
+          "settings": {}
         },
         "static-announcement": {
           "type": "static-announcement",
@@ -1642,26 +1623,22 @@
         },
         "static-product": {
           "type": "static-product",
-          "settings": {
-          }
+          "settings": {}
         },
         "static-footer": {
           "type": "static-footer",
           "blocks": {
             "1493171899575": {
               "type": "social_accounts",
-              "settings": {
-              }
+              "settings": {}
             },
             "1498182586280": {
               "type": "menu",
-              "settings": {
-              }
+              "settings": {}
             },
             "static-footer-1": {
               "type": "newsletter",
-              "settings": {
-              }
+              "settings": {}
             },
             "static-footer-0": {
               "type": "menu",
@@ -1671,8 +1648,7 @@
             },
             "1498182572847": {
               "type": "menu",
-              "settings": {
-              }
+              "settings": {}
             }
           },
           "block_order": [
@@ -1692,18 +1668,15 @@
           "blocks": {
             "1493166188493-1": {
               "type": "menu",
-              "settings": {
-              }
+              "settings": {}
             },
             "1493166188493-0": {
               "type": "menu",
-              "settings": {
-              }
+              "settings": {}
             },
             "1493166188493-2": {
               "type": "menu",
-              "settings": {
-              }
+              "settings": {}
             }
           },
           "block_order": [
@@ -1711,8 +1684,7 @@
             "1493166188493-1",
             "1493166188493-2"
           ],
-          "settings": {
-          }
+          "settings": {}
         },
         "static-collection": {
           "type": "static-collection",
@@ -1880,8 +1852,7 @@
         },
         "static-product-reviews": {
           "type": "static-product-reviews",
-          "settings": {
-          }
+          "settings": {}
         },
         "1497995056454": {
           "type": "dynamic-featured-collection",
@@ -2001,8 +1972,7 @@
           "blocks": {
             "1517257487463": {
               "type": "meganav_images",
-              "settings": {
-              }
+              "settings": {}
             }
           },
           "block_order": [
@@ -2087,8 +2057,7 @@
         },
         "static-list-collections": {
           "type": "static-list-collections",
-          "settings": {
-          }
+          "settings": {}
         },
         "1497987529582": {
           "type": "dynamic-blog-posts",
@@ -2178,8 +2147,7 @@
         },
         "static-product": {
           "type": "static-product",
-          "settings": {
-          }
+          "settings": {}
         },
         "1497989801200": {
           "type": "dynamic-promo-grid",
@@ -2237,8 +2205,7 @@
           "blocks": {
             "1497987853004": {
               "type": "social_accounts",
-              "settings": {
-              }
+              "settings": {}
             },
             "1497987887830": {
               "type": "menu",
@@ -2248,8 +2215,7 @@
             },
             "1520633482343": {
               "type": "rich_text",
-              "settings": {
-              }
+              "settings": {}
             },
             "1497987889867": {
               "type": "menu",
