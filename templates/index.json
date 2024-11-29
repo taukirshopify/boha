@@ -9,6 +9,22 @@
  */
 {
   "sections": {
+    "pxs_image_with_text_overlay_wRTcYW": {
+      "type": "pxs-image-with-text-overlay",
+      "settings": {
+        "section_height": "original",
+        "image": "shopify://shop_images/Untitled_design_-_2024-11-29T201803.115.png",
+        "position": "top left",
+        "title": "BLACK FRIDAY CLEARANCE",
+        "text": "<p>Use Code \"BLACK\" for 23% off sitewide</p>",
+        "content_position": "center-center",
+        "color": "#ffffff",
+        "overlay_background": "#000000",
+        "overlay_opacity": 50,
+        "link": "https://bo-ha.com/collections/black-friday-week",
+        "button_text": "Save Now"
+      }
+    },
     "dynamic_promo_mosaic": {
       "type": "dynamic-promo-mosaic",
       "blocks": {
@@ -47,6 +63,7 @@
         "promotion-1",
         "promotion-2"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "section_height": "small",
@@ -268,6 +285,7 @@
     }
   },
   "order": [
+    "pxs_image_with_text_overlay_wRTcYW",
     "dynamic_promo_mosaic",
     "dynamic_highlights_banner",
     "dynamic_featured_collection",
