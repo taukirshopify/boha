@@ -521,8 +521,8 @@
         "settings": {
           "show_announcement": true,
           "homepage_announcement": false,
-          "announcement_text": "BLACK FRIDAY WEEK HAS STARTED | CLEARANCE SALE | 15% OFF WITH CODE: EARLY",
-          "announcement_text_mobile": "BLACK FRIDAY WEEK HAS STARTED | CLEARANCE SALE | 15% OFF WITH CODE: EARLY",
+          "announcement_text": "🎁 HUGE BLACK FRIDAY SALE 🛍️ | OUR LARGEST SALE OF THE YEAR | 23% OFF WITH CODE: BLACK",
+          "announcement_text_mobile": "🎁 HUGE BLACK FRIDAY SALE 🛍️ | OUR LARGEST SALE OF THE YEAR | 23% OFF WITH CODE: BLACK",
           "announcement_link": "shopify://collections/best-seller",
           "announcement_color": "#ffffff",
           "announcement_background": "#000000"
