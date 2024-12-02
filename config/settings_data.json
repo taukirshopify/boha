@@ -521,8 +521,8 @@
         "settings": {
           "show_announcement": true,
           "homepage_announcement": false,
-          "announcement_text": "🎁 HUGE BLACK FRIDAY SALE 🛍️ | OUR LARGEST SALE OF THE YEAR | 23% OFF WITH CODE: BLACK",
-          "announcement_text_mobile": "‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ 🎁 HUGE BLACK FRIDAY SALE 🛍️ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎23% OFF WITH CODE: BLACK",
+          "announcement_text": "🎁 CYBER MONDAY CLEARANCE 🛍️ | LIMITED STOCK | 20% OFF WITH CODE: CYBER",
+          "announcement_text_mobile": "‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎  ‎ 🎁 HUGE CYBER MONDAY CLEARANCE 🛍️ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎20% OFF WITH CODE: CYBER",
           "announcement_link": "shopify://collections/best-seller",
           "announcement_color": "#ffffff",
           "announcement_background": "#000000"
