@@ -11,6 +11,7 @@
   "sections": {
     "pxs_image_with_text_overlay_wRTcYW": {
       "type": "pxs-image-with-text-overlay",
+      "disabled": true,
       "settings": {
         "section_height": "original",
         "image": "shopify://shop_images/CYBER_MONDAY.png",
@@ -31,7 +32,7 @@
         "promotion-1": {
           "type": "promotion",
           "settings": {
-            "image": "shopify://shop_images/3_a0b57553-933c-4f93-9fd3-e889ba70a18c.png",
+            "image": "shopify://shop_images/Black_And_Red_Modern_Black_Friday_Instagram_Post_9.png",
             "title": "Bring the ambience indoors",
             "text": "Turn your house into a gorgeous model home for less than you ever dreamed possible",
             "color": "#ffffff",
@@ -63,7 +64,6 @@
         "promotion-1",
         "promotion-2"
       ],
-      "disabled": true,
       "settings": {
         "title": "",
         "section_height": "small",
