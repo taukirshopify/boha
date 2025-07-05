@@ -521,8 +521,8 @@
         "settings": {
           "show_announcement": true,
           "homepage_announcement": false,
-          "announcement_text": "30 DAY MONEY BACK GUARANTEE | FREE SHIPPING | 24/7 CUSTOMER SERVICE",
-          "announcement_text_mobile": "30 DAY MONEY BACK GUARANTEE | FREE SHIPPING | 24/7 CUSTOMER SERVICE",
+          "announcement_text": "HUGE JULY 4TH CLEARANCE SALE 🎉 USE CODE \"JULY4\" AT CHECKOUT",
+          "announcement_text_mobile": "HUGE JULY 4TH CLEARANCE SALE 🎉 USE CODE \"JULY4\" AT CHECKOUT",
           "announcement_link": "shopify://collections/best-seller",
           "announcement_color": "#ffffff",
           "announcement_background": "#000000"
