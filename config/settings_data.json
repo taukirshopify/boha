@@ -521,8 +521,8 @@
         "settings": {
           "show_announcement": true,
           "homepage_announcement": false,
-          "announcement_text": "30 DAY MONEY BACK GUARANTEE | FREE SHIPPING | 24/7 CUSTOMER SERVICE",
-          "announcement_text_mobile": "30 DAY MONEY BACK GUARANTEE | FREE SHIPPING | 24/7 CUSTOMER SERVICE",
+          "announcement_text": "FREE SHIPPING WITHIN AUSTRALIA | 30 DAY MONEY BACK GUARANTEE | 24/7 CUSTOMER SERVICE",
+          "announcement_text_mobile": "FREE SHIPPING WITHIN AUSTRALIA | 30 DAY MONEY BACK GUARANTEE | 24/7 CUSTOMER SERVICE",
           "announcement_link": "shopify://collections/best-seller",
           "announcement_color": "#ffffff",
           "announcement_background": "#000000"
@@ -675,11 +675,6 @@
       "855628211100114053": {
         "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": false,
-        "settings": {}
-      },
-      "11973264549492426220": {
-        "type": "shopify://apps/currency-converter/blocks/app-embed-block/a56d6bd1-e9df-4a4a-b98e-e9bb5c43a042",
-        "disabled": true,
         "settings": {}
       }
     }
