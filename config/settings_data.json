@@ -521,8 +521,8 @@
         "settings": {
           "show_announcement": true,
           "homepage_announcement": false,
-          "announcement_text": "HUGE HALLOWEEN CLEARANCE | USE CODE \"HALLOWEEN\" AT CHECKOUT + FREE SHIPPING",
-          "announcement_text_mobile": "HUGE HALLOWEEN CLEARANCE | USE CODE \"HALLOWEEN\" AT CHECKOUT + FREE SHIPPING",
+          "announcement_text": "🎃 HUGE HALLOWEEN CLEARANCE | USE CODE \"HALLOWEEN\" AT CHECKOUT + FREE SHIPPING 🎃",
+          "announcement_text_mobile": "🎃 HUGE HALLOWEEN CLEARANCE | USE CODE \"HALLOWEEN\" AT CHECKOUT + FREE SHIPPING 🎃",
           "announcement_link": "shopify://collections/best-seller",
           "announcement_color": "#ffffff",
           "announcement_background": "#000000"
