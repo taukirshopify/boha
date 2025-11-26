@@ -522,7 +522,7 @@
           "show_announcement": true,
           "homepage_announcement": false,
           "announcement_text": "Black Week has started | Use code: BLACK | 20% OFF sitewide | Stock is moving fast",
-          "announcement_text_mobile": "BLACK WEEK has started | Use code: BLACK ‎ ‎ ‎ ‎ ‎ ‎  20% OFF sitewide | Stock is moving fast",
+          "announcement_text_mobile": "BLACK WEEK has started | Use code: BLACK | ‎20% OFF Sitewide | Stock is moving fast",
           "announcement_link": "shopify://collections/best-seller",
           "announcement_color": "#ffffff",
           "announcement_background": "#000000"
