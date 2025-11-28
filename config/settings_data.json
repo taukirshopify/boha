@@ -521,8 +521,8 @@
         "settings": {
           "show_announcement": true,
           "homepage_announcement": false,
-          "announcement_text": "Black Week has started | Use code: BLACK | 25% OFF sitewide | Stock is moving fast",
-          "announcement_text_mobile": "BLACK WEEK has started | Use code: BLACK | ‎25% OFF Sitewide | Stock is moving fast",
+          "announcement_text": "BLACK FRIDAY IS HERE | Use code: BLACK | 25% OFF Sitewide | Stock Is Moving Fast",
+          "announcement_text_mobile": "BLACK FRIDAY IS HERE | Use code: BLACK | 25% OFF Sitewide | Stock Is Moving Fast",
           "announcement_link": "shopify://collections/best-seller",
           "announcement_color": "#ffffff",
           "announcement_background": "#000000"
