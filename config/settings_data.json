@@ -521,8 +521,8 @@
         "settings": {
           "show_announcement": true,
           "homepage_announcement": false,
-          "announcement_text": "🖤 CYBER MONDAY IS HERE | Use code: CYBER | 20% OFF Sitewide | Ends Tonight at Midnight",
-          "announcement_text_mobile": "🖤 CYBER MONDAY IS HERE | Use code: CYBER | 20% OFF Sitewide | Ends Tonight at Midnight",
+          "announcement_text": "30 DAY MONEY BACK GUARANTEE | FREE SHIPPING | 24/7 CUSTOMER SERVICE",
+          "announcement_text_mobile": "30 DAY MONEY BACK GUARANTEE | FREE SHIPPING | 24/7 CUSTOMER SERVICE",
           "announcement_link": "shopify://collections/best-seller",
           "announcement_color": "#ffffff",
           "announcement_background": "#000000"
