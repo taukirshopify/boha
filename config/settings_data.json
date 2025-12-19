@@ -521,8 +521,8 @@
         "settings": {
           "show_announcement": true,
           "homepage_announcement": false,
-          "announcement_text": "HUGE CHRISTMAS CLEARANCE | USE CODE \"XMAS\" AT CHECKOUT + FREE SHIPPING | 30 DAY MONEY BACK GUARANTEE",
-          "announcement_text_mobile": "HUGE CHRISTMAS CLEARANCE | USE CODE \"XMAS\" AT CHECKOUT + FREE SHIPPING | 30 DAY MONEY BACK GUARANTEE",
+          "announcement_text": "HUGE CHRISTMAS CLEARANCE 🎄| USE CODE \"XMAS\" AT CHECKOUT + FREE SHIPPING | 30 DAY MONEY BACK GUARANTEE",
+          "announcement_text_mobile": "HUGE CHRISTMAS CLEARANCE🎄 | USE CODE \"XMAS\" AT CHECKOUT + FREE SHIPPING | 30 DAY MONEY BACK GUARANTEE",
           "announcement_link": "shopify://collections/best-seller",
           "announcement_color": "#ffffff",
           "announcement_background": "#000000"
