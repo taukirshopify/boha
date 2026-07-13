@@ -1,7 +1,17 @@
-{%- comment -%} Made-to-Order note — shows under Add to Cart for US & CA only. Replaces Globo Pre-Order. {%- endcomment -%}
-{%- assign mto_countries = 'US,CA' | split: ',' -%}
-{%- if mto_countries contains localization.country.iso_code -%}
-  <div class="made-to-order-note" style="margin-top:8px;color:#777;font-size:12px;line-height:1.4;">
-    This item is Made to Order and will take a few additional days to process
-  </div>
-{%- endif -%}
+{%- comment -%} Made-to-Order note — US & CA only. Country is gated CLIENT-SIDE because the storefront default-renders US on the first cached load (server localization is unreliable on first paint). Replaces Globo Pre-Order. {%- endcomment -%}
+<div class="made-to-order-note" data-mto-note hidden style="margin-top:8px;color:#777;font-size:12px;line-height:1.4;">
+  This item is Made to Order and will take a few additional days to process
+</div>
+<script>
+(function(){
+  if(window.__mtoChecked) return; window.__mtoChecked = true;
+  fetch('/browsing_context_suggestions.json',{headers:{'Accept':'application/json'}})
+    .then(function(r){return r.json();})
+    .then(function(j){
+      var c = j && j.detected_values && j.detected_values.country && j.detected_values.country.handle;
+      if(c === 'US' || c === 'CA'){
+        document.querySelectorAll('[data-mto-note]').forEach(function(el){ el.hidden = false; });
+      }
+    }).catch(function(){});
+})();
+</script>
