@@ -1,0 +1,7 @@
+{%- comment -%} Made-to-Order note — shows under Add to Cart for US & CA only. Replaces Globo Pre-Order. {%- endcomment -%}
+{%- assign mto_countries = 'US,CA' | split: ',' -%}
+{%- if mto_countries contains localization.country.iso_code -%}
+  <div class="made-to-order-note" style="margin-top:8px;color:#777;font-size:12px;line-height:1.4;">
+    This item is Made to Order and will take a few additional days to process
+  </div>
+{%- endif -%}

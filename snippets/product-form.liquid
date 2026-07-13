@@ -60,7 +60,6 @@
     @param option_values_classes
     @param option_value_classes
     @param option_value_label_classes
-    @param option_value_input_classes
     @param option_value_name_classes
 
     @param swatches_classes
@@ -327,6 +326,8 @@
       {{ form | payment_button }}
     {% endif %}
   </div>
+
+  {%- render 'made-to-order-note' -%}
 
   <div data-payment-terms-reference style="display: none;">
     {{ form | payment_terms }}
