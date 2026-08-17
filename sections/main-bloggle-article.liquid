@@ -369,17 +369,11 @@
        
       <h1 id="bloggle--article-title" class="">{{article.title }}</h1>
       <div class="info_header">
-        <p id="bloggle--blog-item-author" >{{author}}<span id="author"> {{ article.author }}</span></p>
-        <p id="separator">|</p>
-         <p id="bloggle--blog-item-author" >{{datePublished}} <span>{{ article.published_at | time_tag: format: 'date'}}</span></p>
-          
-           
-        <p id="separator">|</p>
-        {% assign wordCount = article.content | strip_html | split: ' ' | size %}
-               {% if wordCount %}
-                 {% assign timeToReadMin = wordCount | divided_by: 225 %}
-                 <p id="bloggle--blog-item-ttread" >{{ timeToRead }} <span id='time'>{{ timeToReadMin }}</span> min</p>
-               {% endif %}
+        <p id="bloggle--blog-item-author" >{{author}}<span id="author"> {{ article.author }}</span></p><p class="separator">|</p><p id="bloggle--blog-item-author" >{{datePublished}} <span>{{ article.published_at | time_tag: format: 'date'}}</span></p><p class="separator">|</p>{% assign wordCount = article.content | strip_html | split: ' ' | size %}
+       {% if wordCount %}
+         {% assign timeToReadMin = wordCount | divided_by: 225 %}
+         <p id="bloggle--blog-item-ttread" >{{ timeToRead }} <span id='time'>{{ timeToReadMin }}</span> min</p>
+       {% endif %}
       </div>
     </div>
   </div>
