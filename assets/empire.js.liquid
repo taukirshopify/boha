@@ -32673,7 +32673,7 @@ class ProductGridItem {
   /**
    * Get height of element, and combined height of element + actions
    *
-   * @returns {{heightBase, heightExpanded: *}}
+   * @returns {{ heightBase }}
    * @private
    */
 
@@ -39020,7 +39020,7 @@ class DynamicTwitterFeed_DynamicTwitterFeed {
    * Retrieve information about user who tweeted
    *
    * @param el
-   * @returns {{$avatar: *, link: *, name, screenName}}
+   * @returns {{ avatar }}
    * @private
    */
 
@@ -39042,7 +39042,7 @@ class DynamicTwitterFeed_DynamicTwitterFeed {
    * Retrieve link to tweet, and when it was tweeted
    *
    * @param el
-   * @returns {{link: *, postedAt: *}}
+   * @returns {{ link }}
    * @private
    */
 
@@ -45054,4 +45054,19 @@ if (checkPolyfills.length) {
 })();
 
 /******/ })()
-;
+;{%- comment -%}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{{heightBase, heightExpanded: *}}"
+  to: "{{ heightBase }}"
+  position: 955278..955294
+- from: "{{$avatar: *, link: *, name, screenName}}"
+  to: "{{ avatar }}"
+  position: 1139053..1139065
+- from: "{{link: *, postedAt: *}}"
+  to: "{{ link }}"
+  position: 1139549..1139559
+{%- endcomment -%}
